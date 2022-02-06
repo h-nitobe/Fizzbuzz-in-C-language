@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int	max, i, count;
 	
 	if (argc < 2) {		// 第２引数が存在しない
-		printf("使用法：FizzBuzzMod 16\n");
+		printf("使用法：" __FILE__ "\b\b 16\n");
 		return -1;
 	}
 	
