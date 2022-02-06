@@ -1,9 +1,9 @@
 /**
 *	@file		FizzBuzzSin.c
-*	@brief		ä¸‰è§’é–¢æ•°ã§ã§FizzBuzz
-*	@author		æ–°æ¸¡æˆ¸åºƒæ˜
+*	@brief		OŠpŠÖ”‚Å‚ÅFizzBuzz
+*	@author		V“nŒËL–¾
 *	@date		2022/02/06
-*	@details	ãã“ã¾ã§ã™ã‚‹ã‹ï¼Ÿ
+*	@details	‚»‚±‚Ü‚Å‚·‚é‚©H
 */
 #define	_USE_MATH_DEFINES	// for M_PI
 
@@ -16,12 +16,12 @@ int main(int argc, char *argv[])
 	int	fizz = 0, buzz = 0;
 	int	max, i;
 	
-	if (argc < 2) {		// ç¬¬ï¼’å¼•æ•°ãŒå­˜åœ¨ã—ãªã„
-		printf("ä½¿ç”¨æ³•ï¼š" __FILE__ "\b\b 16\n");
+	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶İ‚µ‚È‚¢
+		printf("g—p–@F" __FILE__ "\b\b 16\n");
 		return -1;
 	}
 	
-	max = atoi(argv[1]);	// ç¬¬ï¼’å¼•æ•°ã‚’æ•°å€¤ã§æ ¼ç´ã€€ç¬¬ï¼“å¼•æ•°ä»¥é™ã¯ç„¡è¦–ã—ã¾ã™
+	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ğ”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³‹‚µ‚Ü‚·
 	
 	for (i = 1; i <= max; i++) {
 		fizz = !((int)(3 * sin(M_PI * i / 3)));
