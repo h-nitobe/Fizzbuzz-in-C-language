@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int	fizz = 0, buzz = 0;
+	int	fizz = 0, buzz = 0;		// ¡‰ñ‚Í”{”‚©”Û‚©‚Ìƒtƒ‰ƒO‚Æ‚µ‚Äg‚¢‚Ü‚·
 	int	max, i;
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶İ‚µ‚È‚¢

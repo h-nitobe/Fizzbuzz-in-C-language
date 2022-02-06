@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int	fizz = 0, buzz = 0;
+	int	fizz = 0, buzz = 0;		// 今回はカウンタとして使います
 	int	max, i;
 	
 	if (argc < 2) {		// 第２引数が存在しない

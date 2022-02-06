@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int	max, i;
+	int		max, i;
 	char	buff[16];
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶Ý‚µ‚È‚¢
