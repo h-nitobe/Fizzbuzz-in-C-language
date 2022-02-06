@@ -10,8 +10,8 @@ FizzBuzz をC言語で実装してみよう
 1. カウンタで判定・・・・・・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
 1. オフセットで判定・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
 1. 右シフトで判定
-   1. 1ビットの1をシフトする・・・・・・・・[FizzBuzzSft.c](FizzBuzzSft.c)
-   1. 最大ビットをシフトする・・・・・・・・[FizzBuzzFin.c](FizzBuzzFin.c)
+   1. 1ビットの1を右シフトする・・・・・・・[FizzBuzzSft.c](FizzBuzzSft.c)
+   1. 最大ビットを右シフトする・・・・・・・[FizzBuzzFin.c](FizzBuzzFin.c)
 1. i%15 が循環することに気づいた？
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
    1. テーブル参照・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
