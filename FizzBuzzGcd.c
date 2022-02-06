@@ -34,13 +34,13 @@ int main(int argc, char *argv[])
 }
 
 /**
-* @fn			int gcd(int a, int b)
-* @brief 		与えられた2値の最大公約数を返却する
-* @param[in]	a , b
-* @param[out]	最大公約数
-* @return 		int 最大公約数
-* @details 		ユークリッドの互除法で最大公約数を求める
-*				https://ja.wikipedia.org/wiki/ユークリッドの互除法
+*	@fn			int gcd(int a, int b)
+*	@brief 		与えられた2値の最大公約数を返却する
+*	@param[in]	a , b
+*	@param[out]	最大公約数
+*	@return 	int 最大公約数
+*	@details 	ユークリッドの互除法で最大公約数を求める
+*				ユークリッドの互除法
 */
 int gcd(int a, int b)
 {
