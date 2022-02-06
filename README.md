@@ -9,6 +9,8 @@ FizzBuzz をC言語で実装してみよう
    1. バッファ操作版文字列関数を駆使・・・・[FizzBuzzModBuf.c](FizzBuzzModBuf.c)
 1. カウンタで判定・・・・・・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
 1. オフセットで判定・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
+1. 右シフトで判定・・・・・・・・・・・・・・[FizzBuzzSft.c](FizzBuzzSft.c)
+1. 指折り判定（右シフトだけど）・・・・・・・[FizzBuzzFin.c](FizzBuzzFin.c)
 1. i%15 が循環することに気づいた？
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
    1. テーブル参照・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
