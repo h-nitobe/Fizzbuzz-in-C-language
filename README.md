@@ -10,5 +10,5 @@ FizzBuzz をC言語で実装してみよう
 1. オフセットで判定・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
 1. i%15 が循環することに気づいた？
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
-   1. テーブル参照
+   1. テーブル参照・・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
    1. 関数ポインタ配列参照
