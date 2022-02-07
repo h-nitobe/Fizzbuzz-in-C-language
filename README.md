@@ -1,6 +1,6 @@
 # Fizzbuzz-in-C-language
 FizzBuzz をC言語で実装してみよう
-## お品書き
+### お品書き
 1. 剰余で判定
    1. 割合素直版・・・・・・・・・・・・・・[FizzBuzzMod.c](FizzBuzzMod.c)
    1. 再帰呼び出し版・・・・・・・・・・・・[FizzBuzzModRec.c](FizzBuzzModRec.c)
