@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 *	@param[out]	最大公約数
 *	@return 	int 最大公約数
 *	@details 	ユークリッドの互除法で最大公約数を求める
-*				ユークリッドの互除法
+*				https://ja.wikipedia.org/wiki/ユークリッドの互除法
 */
 int gcd(int a, int b)
 {
