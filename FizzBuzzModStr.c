@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	max = atoi(argv[1]);	// 第２引数を数値で格納　第３引数以降は無視します
 	
 	for (i = 1; i <= max; i++) {
-		fb = ((i % 3)? 0: 1) + ((i % 5)? 0: 2);
+		fb = ((i % 3)? 0: 1) + ((i % 5)? 0: 2);	// 通常:0x0、Fizz:0x1、Buzz:0x2、FizzBuzz:0x3
 		
 		strncpy(fmt, str + ofs[fb], num[fb]);
 		fmt[num[fb]] = '\0';	// strncpy() は '\0' を付加してくれない
