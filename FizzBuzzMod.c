@@ -4,7 +4,6 @@
 *	@author		V“nŒËL–¾
 *	@date		2022/02/06
 *	@details	FizzBuzz‚ğè—]‚Å”»’è‚·‚é@Š„‡‘f’¼
-*	$Id$
 */
 
 #include	<stdio.h>	// for printf()
