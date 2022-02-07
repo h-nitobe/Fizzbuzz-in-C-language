@@ -1,0 +1,63 @@
+\hypertarget{_fizz_buzz_file_8c_source}{}\doxysection{Fizz\+Buzz\+File.\+c}
+\mbox{\hyperlink{_fizz_buzz_file_8c}{\mbox{[}詳解\mbox{]}}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00001}00001 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00009}00009 \textcolor{preprocessor}{\#include    <stdio.h>}   \textcolor{comment}{// for printf(),fopen(),fclose()他}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00010}00010 \textcolor{preprocessor}{\#include    <stdlib.h>}  \textcolor{comment}{// for atoi(), system()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00011}00011 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00012}00012 \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_file_8c_ab21ece427f7e5c71fd0aa24dea5a6afa}{makeFile}}(\textcolor{keywordtype}{int} num, \textcolor{keywordtype}{char} *fn);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00013}00013 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00020}\mbox{\hyperlink{_fizz_buzz_file_8c_a0ddf1224851353fc92bfbff6f499fa97}{00020}} \textcolor{keywordtype}{int} \mbox{\hyperlink{_fizz_buzz_file_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}}(\textcolor{keywordtype}{int} argc, \textcolor{keywordtype}{char} *argv[])}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00021}00021 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00022}00022     \textcolor{keywordtype}{int}     max, i;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00023}00023     \textcolor{keywordtype}{char}    fileName[16], str[16];}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00024}00024     FILE    *fp;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00025}00025     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00026}00026     \textcolor{keywordflow}{if} (argc < 2) \{     \textcolor{comment}{// 第２引数が存在しない}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00027}00027         printf(\textcolor{stringliteral}{"{}使用法："{}} \_\_FILE\_\_ \textcolor{stringliteral}{"{}\(\backslash\)b\(\backslash\)b 16\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00028}00028         \textcolor{keywordflow}{return} -\/1;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00029}00029     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00030}00030     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00031}00031     max = atoi(argv[1]);    \textcolor{comment}{// 第２引数を数値で格納　第３引数以降は無視します}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00032}00032     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00033}00033     \textcolor{keywordflow}{for} (i = 3; i <= max; i += 3) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00034}00034         \mbox{\hyperlink{_fizz_buzz_file_8c_ab21ece427f7e5c71fd0aa24dea5a6afa}{makeFile}}(i, \textcolor{stringliteral}{"{}Fizz"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00035}00035     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00036}00036 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00037}00037     \textcolor{keywordflow}{for} (i = 5; i <= max; i += 5) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00038}00038         \mbox{\hyperlink{_fizz_buzz_file_8c_ab21ece427f7e5c71fd0aa24dea5a6afa}{makeFile}}(i, \textcolor{stringliteral}{"{}Buzz"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00039}00039     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00040}00040     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00041}00041     system(\textcolor{stringliteral}{"{}dir *.fb"{}});             \textcolor{comment}{// linux では動きません}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00042}00042 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00043}00043     \textcolor{keywordflow}{for} (i = 1; i <= max; i++) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00044}00044         sprintf(fileName, \textcolor{stringliteral}{"{}\%d.fb"{}}, i);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00045}00045         fp = fopen(fileName, \textcolor{stringliteral}{"{}r"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00046}00046         \textcolor{keywordflow}{if} (fp == NULL) \{           \textcolor{comment}{// ファイルが存在しない}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00047}00047             printf(\textcolor{stringliteral}{"{}\%d "{}}, i);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00048}00048         \} \textcolor{keywordflow}{else} \{                    \textcolor{comment}{// ファイルが存在する}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00049}00049             fscanf(fp, \textcolor{stringliteral}{"{}\%s"{}}, str);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00050}00050             printf(\textcolor{stringliteral}{"{}\%s "{}},str);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00051}00051             fclose(fp);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00052}00052         \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00053}00053     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00054}00054     printf(\textcolor{stringliteral}{"{}\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00055}00055 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00056}00056     system(\textcolor{stringliteral}{"{}del *.fb"{}});             \textcolor{comment}{// お掃除 linux では動きません}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00057}00057 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00058}00058     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00059}00059 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00060}00060 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00067}\mbox{\hyperlink{_fizz_buzz_file_8c_ab21ece427f7e5c71fd0aa24dea5a6afa}{00067}} \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_file_8c_ab21ece427f7e5c71fd0aa24dea5a6afa}{makeFile}}(\textcolor{keywordtype}{int} num, \textcolor{keywordtype}{char} *fn)}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00068}00068 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00069}00069     FILE    *fp;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00070}00070     \textcolor{keywordtype}{char}    fileName[16];}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00071}00071     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00072}00072     sprintf(fileName, \textcolor{stringliteral}{"{}\%d.fb"{}}, num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00073}00073     \textcolor{keywordflow}{if} ((fp = fopen(fileName, \textcolor{stringliteral}{"{}a"{}})) != NULL) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00074}00074         fprintf(fp, \textcolor{stringliteral}{"{}\%s"{}}, fn);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00075}00075         fclose(fp);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00076}00076     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_file_8c_source_l00077}00077 \}}
+
+\end{DoxyCode}
