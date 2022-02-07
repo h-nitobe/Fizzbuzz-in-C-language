@@ -14,6 +14,13 @@ int gcd(int a, int b);
 //                              0     1  2       3  4       5  6  7  8  9 10 11 12 13 14          15  
 static const char	*str[] = { "","%d ","","Fizz ","","Buzz ","","","","","","","","","","FizzBuzz " };
 
+/**
+*	@fn			int main(int argc, char *argv[])
+*	@brief 		main ŠÖ”
+*	@param[in]	argc , argv
+*	@param[out]	return
+*	@return 	return
+*/
 int main(int argc, char *argv[])
 {
 	int	max, i;
