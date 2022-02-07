@@ -9,12 +9,12 @@
 #include	<stdio.h>	// for printf()
 #include	<stdlib.h>	// for atoi()
 
-//                          0  1  2  3  4  5  6  7  8  9 10 11 12 13 14
-static const char tbl[] = {15, 0, 0, 3, 0, 5, 3, 0, 0, 3, 5, 0, 3, 0, 0};
+//                          0  1  2  3  4  5  6  7  8  9 10 11 12 13 14  15
+static const char tbl[] = {15, 0, 0, 3, 0, 5, 3, 0, 0, 3, 5, 0, 3, 0, 0, 15};
 
 int main(int argc, char *argv[])
 {
-	int		max, i;
+	int		max, i, j;
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶Ý‚µ‚È‚¢
 		printf("Žg—p–@F" __FILE__ "\b\b 16\n");
@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
 	
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ð”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³Ž‹‚µ‚Ü‚·
 	
-	for (i = 1; i <= max; i++) {
-		switch (tbl[i % 15]) {
+	for (i = 1, j = 1; i <= max; i++, j++) {
+		switch (tbl[j]) {
 			case 3:
 				printf("Fizz " );
 				break;
@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
 				break;
 			case 15:
 				printf("FizzBuzz ");
+				j = 0;
 				break;
 			default:
 				printf("%d ", i);

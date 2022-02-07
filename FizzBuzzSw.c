@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int	max, i;
+	int	max, i, j;
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶Ý‚µ‚È‚¢
 		printf("Žg—p–@F" __FILE__ "\b\b 16\n");
@@ -20,16 +20,17 @@ int main(int argc, char *argv[])
 	
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ð”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³Ž‹‚µ‚Ü‚·
 	
-	for (i = 1; i <= max; i++) {
-		switch (i % 15) {
-			case 0:
-				printf("FizzBuzz ");
-				break;
+	for (i = 1, j = 1; i <= max; i++, j++) {
+		switch (j) {
 			case 3: case 6: case 9: case 12:
 				printf("Fizz " );
 				break;
 			case 5: case 10:
 				printf("Buzz ");
+				break;
+			case 15:
+				printf("FizzBuzz ");
+				j = 0;
 				break;
 			default:
 				printf("%d ", i);

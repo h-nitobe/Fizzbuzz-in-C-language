@@ -18,7 +18,7 @@ static const void (*fizzbuzz[])(int num) = {fb, n, n, f, n, b, f, n, n, f, b, n,
 
 int main(int argc, char *argv[])
 {
-	int	max, i;
+	int	max, i, j;
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶Ý‚µ‚È‚¢
 		printf("Žg—p–@F" __FILE__ "\b\b 16\n");
@@ -27,8 +27,9 @@ int main(int argc, char *argv[])
 	
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ð”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³Ž‹‚µ‚Ü‚·
 	
-	for (i = 1; i <= max; i++) {
-		fizzbuzz[i % 15](i);
+	for (i = 1, j = 1; i <= max; i++, j++) {
+		if (15 <= j) j = 0;
+		fizzbuzz[j](i);
 	}
 	printf("\n");
 	
