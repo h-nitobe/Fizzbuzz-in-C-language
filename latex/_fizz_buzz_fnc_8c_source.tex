@@ -1,0 +1,56 @@
+\hypertarget{_fizz_buzz_fnc_8c_source}{}\doxysection{Fizz\+Buzz\+Fnc.\+c}
+\mbox{\hyperlink{_fizz_buzz_fnc_8c}{\mbox{[}詳解\mbox{]}}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00001}00001 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00009}00009 \textcolor{preprocessor}{\#include    <stdio.h>}   \textcolor{comment}{// for printf()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00010}00010 \textcolor{preprocessor}{\#include    <stdlib.h>}  \textcolor{comment}{// for atoi()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00011}00011 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00012}00012 \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}(\textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00013}00013 \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}(\textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00014}00014 \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_a3a690ed2990e545e9c59b933f7b84a72}{b}}(\textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00015}00015 \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_ad89f92c061df914930fd637e19a3e117}{fb}}(\textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00016}00016 \textcolor{comment}{//                                           0  1  2  3  4  5  6  7  8  9 10 11 12 13 14}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00017}00017 \textcolor{keyword}{static} \textcolor{keyword}{const} void (*\mbox{\hyperlink{_fizz_buzz_mod_rec_8c_ad2f0b1a870e33eab76e354cbf353c150}{fizzbuzz}}[])(\textcolor{keywordtype}{int} num) = \{\mbox{\hyperlink{_fizz_buzz_fnc_8c_ad89f92c061df914930fd637e19a3e117}{fb}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a3a690ed2990e545e9c59b933f7b84a72}{b}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a3a690ed2990e545e9c59b933f7b84a72}{b}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}, \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}\};}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00019}\mbox{\hyperlink{_fizz_buzz_fnc_8c_a0ddf1224851353fc92bfbff6f499fa97}{00019}} \textcolor{keywordtype}{int} \mbox{\hyperlink{_fizz_buzz_fnc_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}}(\textcolor{keywordtype}{int} argc, \textcolor{keywordtype}{char} *argv[])}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00020}00020 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00021}00021     \textcolor{keywordtype}{int} max, i;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00022}00022     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00023}00023     \textcolor{keywordflow}{if} (argc < 2) \{     \textcolor{comment}{// 第２引数が存在しない}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00024}00024         printf(\textcolor{stringliteral}{"{}使用法："{}} \_\_FILE\_\_ \textcolor{stringliteral}{"{}\(\backslash\)b\(\backslash\)b 16\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00025}00025         \textcolor{keywordflow}{return} -\/1;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00026}00026     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00027}00027     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00028}00028     max = atoi(argv[1]);    \textcolor{comment}{// 第２引数を数値で格納　第３引数以降は無視します}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00029}00029     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00030}00030     \textcolor{keywordflow}{for} (i = 1; i <= max; i++) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00031}00031         \mbox{\hyperlink{_fizz_buzz_mod_rec_8c_ad2f0b1a870e33eab76e354cbf353c150}{fizzbuzz}}[i \% 15](i);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00032}00032     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00033}00033     printf(\textcolor{stringliteral}{"{}\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00034}00034     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00035}00035     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00036}00036 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00037}00037 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00038}\mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{00038}} \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_a7c8dd99b15679836acd564c92258ff19}{n}}(\textcolor{keywordtype}{int} num)}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00039}00039 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00040}00040     printf(\textcolor{stringliteral}{"{}\%d "{}}, num);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00041}00041 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00042}00042 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00043}\mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{00043}} \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_ab657e729fc28919b9a78f8872cc50a22}{f}}(\textcolor{keywordtype}{int} num)}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00044}00044 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00045}00045     printf(\textcolor{stringliteral}{"{}Fizz "{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00046}00046 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00047}00047 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00048}\mbox{\hyperlink{_fizz_buzz_fnc_8c_a3a690ed2990e545e9c59b933f7b84a72}{00048}} \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_a3a690ed2990e545e9c59b933f7b84a72}{b}}(\textcolor{keywordtype}{int} num)}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00049}00049 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00050}00050     printf(\textcolor{stringliteral}{"{}Buzz "{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00051}00051 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00052}00052 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00053}\mbox{\hyperlink{_fizz_buzz_fnc_8c_ad89f92c061df914930fd637e19a3e117}{00053}} \textcolor{keywordtype}{void} \mbox{\hyperlink{_fizz_buzz_fnc_8c_ad89f92c061df914930fd637e19a3e117}{fb}}(\textcolor{keywordtype}{int} num)}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00054}00054 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00055}00055     printf(\textcolor{stringliteral}{"{}FizzBuzz "{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00056}00056 \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00057}00057 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_fnc_8c_source_l00058}00058 }
+
+\end{DoxyCode}

@@ -1,0 +1,41 @@
+\hypertarget{_fizz_buzz_mod_buf_8c_source}{}\doxysection{Fizz\+Buzz\+Mod\+Buf.\+c}
+\mbox{\hyperlink{_fizz_buzz_mod_buf_8c}{\mbox{[}詳解\mbox{]}}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00001}00001 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00009}00009 \textcolor{preprocessor}{\#include    <stdio.h>}   \textcolor{comment}{// for printf(), sprintf()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00010}00010 \textcolor{preprocessor}{\#include    <stdlib.h>}  \textcolor{comment}{// for atoi()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00011}00011 \textcolor{preprocessor}{\#include    <string.h>}  \textcolor{comment}{// for strcpy(), strcat(), strlen()}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00012}00012 }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00013}\mbox{\hyperlink{_fizz_buzz_mod_buf_8c_a0ddf1224851353fc92bfbff6f499fa97}{00013}} \textcolor{keywordtype}{int} \mbox{\hyperlink{_fizz_buzz_mod_buf_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}}(\textcolor{keywordtype}{int} argc, \textcolor{keywordtype}{char} *argv[])}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00014}00014 \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00015}00015     \textcolor{keywordtype}{int}     max, i;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00016}00016     \textcolor{keywordtype}{char}    buff[16];}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00017}00017     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00018}00018     \textcolor{keywordflow}{if} (argc < 2) \{     \textcolor{comment}{// 第２引数が存在しない}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00019}00019         printf(\textcolor{stringliteral}{"{}使用法："{}} \_\_FILE\_\_ \textcolor{stringliteral}{"{}\(\backslash\)b\(\backslash\)b 16\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00020}00020         \textcolor{keywordflow}{return} -\/1;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00021}00021     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00022}00022     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00023}00023     max = atoi(argv[1]);    \textcolor{comment}{// 第２引数を数値で格納　第３引数以降は無視します}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00024}00024     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00025}00025     \textcolor{keywordflow}{for} (i = 1; i <= max; i++) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00026}00026         strcpy(buff, \textcolor{stringliteral}{"{}"{}});       \textcolor{comment}{// バッファクリア}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00027}00027     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00028}00028         \textcolor{keywordflow}{if} (!(i \% 3)) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00029}00029             strcpy(buff, \textcolor{stringliteral}{"{}Fizz"{}});   \textcolor{comment}{// "{}Fizz"{}を上書き}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00030}00030         \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00031}00031         }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00032}00032         \textcolor{keywordflow}{if} (!(i \% 5)) \{}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00033}00033             strcat(buff, \textcolor{stringliteral}{"{}Buzz"{}});   \textcolor{comment}{// "{}Buzz"{}を追記}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00034}00034         \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00035}00035         \textcolor{keywordflow}{if} (!strlen(buff)) \{        \textcolor{comment}{// バッファが空だったら}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00036}00036             sprintf(buff, \textcolor{stringliteral}{"{}\%d"{}}, i); \textcolor{comment}{// 数字を書く}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00037}00037         \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00038}00038         printf(\textcolor{stringliteral}{"{}\%s "{}}, buff);}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00039}00039     \}}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00040}00040     printf(\textcolor{stringliteral}{"{}\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00041}00041     }
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00042}00042     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{\Hypertarget{_fizz_buzz_mod_buf_8c_source_l00043}00043 \}}
+
+\end{DoxyCode}
