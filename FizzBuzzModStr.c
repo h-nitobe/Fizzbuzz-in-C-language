@@ -14,8 +14,7 @@ int main(int argc, char *argv[])
 {
 	int		max, i;
 	int		fb;	// 通常:0x0、Fizz:0x1、Buzz:0x2、FizzBuzz:0x3
-// 玩ばれる文字列
-//                       0123456789
+// 玩ばれる文字列        0123456789
 	const char	str[] = "%dFizzBuzz";
 // カンニングペーパー
 	const char	ofs[] = { 0, 2, 6, 2 };	// 読み出しオフセット
