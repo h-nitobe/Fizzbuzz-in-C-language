@@ -1,6 +1,6 @@
 /**
 *	@file		FizzBuzzSin.c
-*	@brief		三角関数ででFizzBuzz
+*	@brief		三角関数でFizzBuzz
 *	@author		新渡戸広明
 *	@date		2022/02/06
 *	@details	そこまでするか？
