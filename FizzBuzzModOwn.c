@@ -2,7 +2,7 @@
 *	@file		FizzBuzzModOwn.c
 *	@brief		剰余でFizzBuzz 剰余を自前で用意する
 *	@author		新渡戸広明
-*	@date		2022/02/06
+*	@date		2022/02/10
 *	@details	割り算命令が無いCPUを使うハメになった不運なあなたへ
 *				たぶんコンパイラが宜しくやってくれるんだけどね
 */
