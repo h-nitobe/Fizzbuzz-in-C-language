@@ -23,4 +23,4 @@ FizzBuzz をC言語で実装してみよう
 1. 三角関数で判定・・・・・・・・・・・・・・[FizzBuzzSin.c](FizzBuzzSin.c)
 1. ファイル操作版・・・・・・・・・・・・・・[FizzBuzzFile.c](FizzBuzzFile.c)
 
-<html/index.html>
+[doxygen](html/index.html)
