@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['gcd_0',['gcd',['../_fizz_buzz_gcd_8c.html#af23d9d3b957105f099417c29e1404852',1,'FizzBuzzGcd.c']]]
+  ['f_0',['f',['../_fizz_buzz_fnc_8c.html#ab657e729fc28919b9a78f8872cc50a22',1,'FizzBuzzFnc.c']]],
+  ['fb_1',['fb',['../_fizz_buzz_fnc_8c.html#ad89f92c061df914930fd637e19a3e117',1,'FizzBuzzFnc.c']]],
+  ['fizzbuzz_2',['fizzbuzz',['../_fizz_buzz_mod_rec_8c.html#ad2f0b1a870e33eab76e354cbf353c150',1,'FizzBuzzModRec.c']]]
 ];
