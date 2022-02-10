@@ -11,10 +11,10 @@
 
 typedef	unsigned int	U32;
 
-int p1(U32 x);
+int pml1(U32 x);
 void div3(U32 num, U32 *q, U32 *m);
 void div5(U32 num, U32 *q, U32 *m);
-void test_p1(void);
+void test_pml1(void);
 void test_div3(void);
 void test_div5(void);
 
@@ -61,13 +61,13 @@ int main(int argc, char *argv[])
 }
 
 /**
-*	@fn			int p1(U32 x)
-*	@brief 		最左ビット１の位置を返却する
+*	@fn			int pml1(U32 x)
+*	@brief 		Position of Most Left "1"
 *	@param[in]	x
 *	@return 	最左ビット１の位置 ビット１が無い：-1
 *	@details 	二分探索により最左ビット１の位置を求める
 */
-int p1(U32 x)
+int pml1(U32 x)
 {
 	U32		y;
 	int		n, c;
@@ -103,7 +103,7 @@ void div3(U32 n, U32 *q, U32 *m)
 	
 	*q = 0;
 	
-	for (i = p1(n); i > 0; --i) {		// 最左ビット１から位置１まで
+	for (i = pml1(n); i > 0; --i) {		// 最左ビット１から位置１まで
 		e = (U32)3 << (i - 1);			// 3 * 2^p 
 		if (n >= e) {					// 引ける様なら
 			n -= e;						// 　　引いて
@@ -130,7 +130,7 @@ void div5(U32 n, U32 *q, U32 *m)
 	
 	*q = 0;
 	
-	for (i = p1(n); i > 1; --i) {		// 最左ビット１から位置２まで
+	for (i = pml1(n); i > 1; --i) {		// 最左ビット１から位置２まで
 		e = (U32)5 << (i - 2);			// 5 * 2^p
 		if (n >= e) {					// 引ける様なら
 			n -= e;						// 　　引いて
@@ -142,20 +142,20 @@ void div5(U32 n, U32 *q, U32 *m)
 }
 
 /**
-*	@fn			void test_p1(void),void test_div3(void),void test_div5(void)
+*	@fn			void test_pml1(void),void test_div3(void),void test_div5(void)
 *	@brief 		デバグ用
 *	@param[in]	なし
 *	@param[out]	なし
 *	@return 	なし
 *	@details 
 */
-void test_p1(void)
+void test_pml1(void)
 {
-	printf("%08x %d \n", 0x00000000, p1(0x00000000));
-	printf("%08x %d \n", 0x00000001, p1(0x00000001));
-	printf("%08x %d \n", 0x00000008, p1(0x00000008));
-	printf("%08x %d \n", 0x0fffffff, p1(0x0fffffff));
-	printf("%08x %d \n", 0xffffffff, p1(0xffffffff));
+	printf("%08x %d \n", 0x00000000, pml1(0x00000000));
+	printf("%08x %d \n", 0x00000001, pml1(0x00000001));
+	printf("%08x %d \n", 0x00000008, pml1(0x00000008));
+	printf("%08x %d \n", 0x0fffffff, pml1(0x0fffffff));
+	printf("%08x %d \n", 0xffffffff, pml1(0xffffffff));
 }
 
 void test_div3(void)
