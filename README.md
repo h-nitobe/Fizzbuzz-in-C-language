@@ -20,6 +20,7 @@ FizzBuzz をC言語で実装してみよう。
    1. 1ビットの1を右シフトする・・・・・・・[FizzBuzzSft.c](FizzBuzzSft.c)
    1. 指折り数えてみる（シフトだけどね）・・[FizzBuzzFin.c](FizzBuzzFin.c)
 1. 排他的論理和で判定・・・・・・・・・・・・[FizzBuzzExor.c](FizzBuzzExor.c)
+1. 論理積で判定・・・・・・・・・・・・・・・[FizzBuzzAnd.c](FizzBuzzAnd.c)
 1. i%15 が循環することに気づいた？
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
    1. テーブル参照・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
