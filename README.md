@@ -1,5 +1,6 @@
 # Fizzbuzz-in-C-language
-FizzBuzz をC言語で実装してみよう
+FizzBuzz をC言語で実装してみよう。
+
 1から順に数を数え上げていき、3の倍数なら「Fizz」、5の倍数なら「Buzz」、両方の倍数（15の倍数）なら「Fizz Buzz」、いずれでもなければその数を言う。
 ### お品書き
 1. 剰余で判定
