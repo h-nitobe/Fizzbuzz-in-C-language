@@ -1,6 +1,6 @@
 /**
 *	@file		FizzBuzzExor.c
-*	@brief		Exor ‚Å”»’è
+*	@brief		”r‘¼“I˜_—˜a(Exor) ‚Å”»’è
 *	@author		V“nŒËL–¾
 *	@date		2022/02/11
 */
