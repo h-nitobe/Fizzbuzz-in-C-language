@@ -38,9 +38,11 @@ int main(int argc, char *argv[])
 			count += printf("Buzz");
 			buzz = BUZZ;
 		}
+		
 		if (!count) {
 			printf("%d", i);
 		}
+		
 		printf(" ");
 	}
 	printf("\n");

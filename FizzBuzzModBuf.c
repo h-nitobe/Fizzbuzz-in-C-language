@@ -32,9 +32,11 @@ int main(int argc, char *argv[])
 		if (!(i % 5)) {
 			strcat(buff, "Buzz");	// "Buzz"を追記
 		}
+		
 		if (!strlen(buff)) {		// バッファが空だったら
 			sprintf(buff, "%d", i);	// 数字を書く
 		}
+		
 		printf("%s ", buff);
 	}
 	printf("\n");

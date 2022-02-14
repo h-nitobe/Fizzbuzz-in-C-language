@@ -32,9 +32,11 @@ int main(int argc, char *argv[])
 		if (buzz) {
 			printf("Buzz");
 		}
+		
 		if (!fizz && !buzz) {
 			printf("%d", i);
 		}
+		
 		printf(" ");
 	}
 	printf("\n");
