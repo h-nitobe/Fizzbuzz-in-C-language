@@ -57,7 +57,7 @@ int judgeFizzBuzz(int num)
 {
 	size_t	i;
 	int		t = 0, ret = 0;
-	char	decNum[11] = { 0 };		// 十進表記 0xffffffff = 4294967295 10桁＋\0
+	char	decNum[12] = { 0 };		// 十進表記 0x80000000 = -2147483648 符号＋10桁＋\0
 	
 	sprintf(decNum, "%d", num);		// 十進数表記に変換
 	
