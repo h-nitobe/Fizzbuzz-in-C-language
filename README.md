@@ -20,7 +20,7 @@ FizzBuzz をC言語で実装してみよう。
    1. 到達値・・・・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
    1. 目標値・・・・・・・・・・・・・・・・[FizzBuzzOfs2.c](FizzBuzzOfs2.c)
 1. 右シフトで判定
-   1. 1ビットの1を右シフトする・・・・・・・[FizzBuzzSft.c](FizzBuzzSft.c)
+   1. 1ビットの1を右シフトする・・・・・・・[FizzBuzzShlr.c](FizzBuzzShlr.c)
    1. 指折り数えてみる（シフトだけどね）・・[FizzBuzzFin.c](FizzBuzzFin.c)
 1. 排他的論理和で判定・・・・・・・・・・・・[FizzBuzzExor.c](FizzBuzzExor.c)
 1. 論理積で判定・・・・・・・・・・・・・・・[FizzBuzzAnd.c](FizzBuzzAnd.c)
