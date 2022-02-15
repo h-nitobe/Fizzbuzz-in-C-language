@@ -21,20 +21,18 @@ int main(int argc, char *argv[])
 	max = atoi(argv[1]);	// 第２引数を数値で格納　第３引数以降は無視します
 	
 	for (i = 1; i <= max; i++) {
-		if (i != 1) {
-			fizz <<= 1;
-			buzz <<= 1;
-		}
-		
+		fizz <<= 1;
+		buzz <<= 1;
 		count = 0;
-		if (fizz & 4) {				// 4:0b00000100 でマスク
+									//     76543210
+		if (fizz & 8) {				// 4:0b00001000 でマスク
 			count += printf("Fizz");
-			fizz |= 1;
+			fizz |= 1;				// 位置 0 に 1 を補充
 		}
-		
-		if (buzz & 16) {			// 16:0b00010000 でマスク
+									//      76543210
+		if (buzz & 32) {			// 32:0b00100000 でマスク
 			count += printf("Buzz");
-			buzz |= 1;
+			buzz |= 1;				// 位置 0 に 1 を補充
 		}
 		
 		if (!count) {
