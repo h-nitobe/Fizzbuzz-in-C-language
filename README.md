@@ -37,3 +37,4 @@ FizzBuzz をC言語で実装してみよう。
 1. GR-SAKURA(RX63N)でFizzBuzz・・・・・・・[FizzBuzzFile.c](FizzBuzzFile.c)
 
    仕様変更：　1~15を2進数でLEDに表示　15：^ド　3: ミ　5:ソ　その他:ド　を発音する
+   クロック設定関数 initBASE() は自前で用意してください。
