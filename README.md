@@ -45,3 +45,4 @@ FizzBuzz をC言語で実装してみよう。
 1. WIO TERMINAL(ATSAMD51)でFizzBuzz・・・・[FizzBuzz.ino](FizzBuzz.ino)
 
    C言語じゃなくArduinoのスケッチ(何を隠そうC++)だけどね。"30" の "FizzBuzz" でバグってる。 ”Fizz" と "Buzz" の間にスペースが入っている。俺のせいじゃない。  　
+  ![IMG_20220217_123503803.jpg](IMG_20220217_123503803.jpg)
