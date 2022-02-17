@@ -39,6 +39,7 @@ FizzBuzz をC言語で実装してみよう。
    仕様変更：　1~15を2進数でLEDに表示　15：^ド　3: ミ　5:ソ　その他:ド　を発音する
    
    クロック設定関数 initBASE() は自前で用意してください。
+   ![GR_SAKURA.png](GR_SAKURA.png)
    ![VID_20220216_193000493](VID_20220216_193000493.jpg)
    
 1. WIO TERMINAL(ATSAMD51)でFizzBuzz・・・・[FizzBuzz.ino](FizzBuzz.ino)
