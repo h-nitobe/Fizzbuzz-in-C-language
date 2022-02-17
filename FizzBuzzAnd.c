@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	
 	for (i = 1; i <= max; i++) {
 
-		if (!((++fizz + 1) & 3)) fizz = 0;
+		if (!((++fizz + 5) & 7)) fizz = 0;
 		if (!((++buzz + 3) & 7)) buzz = 0;
 
 		if (!fizz) printf("Fizz");
