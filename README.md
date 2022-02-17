@@ -2,7 +2,7 @@
 FizzBuzz をC言語で実装してみよう。
 
 1から順に数を数え上げてゆき、3の倍数なら「Fizz」、5の倍数なら「Buzz」、両方の倍数（15の倍数）なら「Fizz Buzz」、いずれでもなければその数を出力する。
-
+   ![FizzBuzz](FizzBuzz.png)
 ### お品書き
 1. 剰余で判定
    1. 割合素直版・・・・・・・・・・・・・・[FizzBuzzMod.c](FizzBuzzMod.c)
