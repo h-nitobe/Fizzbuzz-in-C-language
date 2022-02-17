@@ -40,3 +40,4 @@ FizzBuzz をC言語で実装してみよう。
    
    クロック設定関数 initBASE() は自前で用意してください。
 
+![VID_20220216_193000493](https://user-images.githubusercontent.com/37722208/154399820-e8df0ffd-4d99-4878-98aa-15c8004b1029.jpg)
