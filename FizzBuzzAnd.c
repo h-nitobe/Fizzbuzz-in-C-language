@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ğ”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³‹‚µ‚Ü‚·
 	
 	for (i = 1; i <= max; i++) {
+
 		if (!((++fizz + 1) & 3)) fizz = 0;
 		if (!((++buzz + 3) & 7)) buzz = 0;
 
