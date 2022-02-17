@@ -42,8 +42,7 @@ FizzBuzz をC言語で実装してみよう。
 
    ![VID_20220216_193000493](VID_20220216_193000493.jpg)
    
-1. WIO TERMINAL(ATSAMD51)でFizzBuzz・・・・[FizzBuzz.c](FizzBuzz.c)
+1. WIO TERMINAL(ATSAMD51)でFizzBuzz・・・・[FizzBuzz.ino(FizzBuzz.ino)
 
-   C言語じゃなくArduinoのスケッチだけどね
-   
+   C言語じゃなくArduinoのスケッチだけどね。"30" の "FizzBuzz" でバグってる。   
    ![IMG_20220217_123503803](IMG_20220217_123503803.jpg)
