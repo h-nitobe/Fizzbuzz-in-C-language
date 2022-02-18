@@ -2,7 +2,7 @@
 *   @file       FizzBuzzMbit.cpp
 *   @brief      micro bit Ç≈ FizzBuzz
 *   @author     êVìnåÀçLñæ
-*   @date       2022/02/11
+*   @date       2022/02/18
 *   @details    
 */
 #include "MicroBit.h"
