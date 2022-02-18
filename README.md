@@ -46,7 +46,7 @@ FizzBuzz をC言語で実装してみよう。
 
    C言語じゃなくArduinoのスケッチ(何を隠そうC++)だけどね。"30" の "FizzBuzz" でバグってる。 ”Fizz" と "Buzz" の間にスペースが入っている。俺のせいじゃない。  　
   ![IMG_20220217_123503803.jpg](IMG_20220217_123503803.jpg)
-
+  
 1. NUCLEO-F411RE(STM32F411RE)でFizzBuzz・・[FizzBuzz.cpp](FizzBuzz.cpp)
 
    こいつもC++だ。出力が更に貧弱なので、USBシリアルでPCのターミナルエミュレータに文字を投げる。
@@ -54,3 +54,7 @@ FizzBuzz をC言語で実装してみよう。
    ![F411RE.png](F411RE.png)
    ![TeraTerm.png](TeraTerm.png)
 
+1. micro bit(nRF51822)でFizzBuzz・・・・・・[FizzBuzzMbit.cpp](FizzBuzzMbit.cpp)
+
+   [Mbed Online Compiler](https://os.mbed.com/docs/mbed-os/v6.15/quick-start/build-with-the-online-compiler.html) は micro bit もビルドできる。
+   ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
