@@ -57,4 +57,6 @@ FizzBuzz をC言語で実装してみよう。
 1. micro bit(nRF51822)でFizzBuzz・・・・・・[FizzBuzzMbit.cpp](FizzBuzzMbit.cpp)
 
    [Mbed Online Compiler](https://os.mbed.com/docs/mbed-os/v6.15/quick-start/build-with-the-online-compiler.html) は micro bit もビルドできる。
+   
+   [Microsoft MakeCode for micro:bit](https://makecode.microbit.org/?lang=ja)じゃなくともC++で構築する方法もあるんだ。
    ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
