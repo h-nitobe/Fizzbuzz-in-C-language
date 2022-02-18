@@ -49,7 +49,7 @@ FizzBuzz をC言語で実装してみよう。
   
 1. NUCLEO-F411RE(STM32F411RE)でFizzBuzz・・[FizzBuzz.cpp](FizzBuzz.cpp)
 
-   こいつもC++だ。出力が更に貧弱なので、USBシリアルでPCのターミナルエミュレータに文字を投げる。
+   こいつもC++だ。出力が更に貧弱なので、USBシリアルでPCのターミナルエミュレータに文字を投げる。きょうび Web 上で開発可能だ。[Mbed Online Compiler](https://os.mbed.com/docs/mbed-os/v6.15/quick-start/build-with-the-online-compiler.html)
    ![IMG_20220218_115104882.jpg](IMG_20220218_115104882.jpg)
    ![F411RE.png](F411RE.png)
    ![TeraTerm.png](TeraTerm.png)
