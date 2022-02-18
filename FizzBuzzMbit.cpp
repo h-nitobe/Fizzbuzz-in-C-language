@@ -16,7 +16,7 @@ int main()
     for (int i = 1; i < 35; i++) {
         if (!(i % 3)) uBit.display.scroll("Fizz");
         if (!(i % 5)) uBit.display.scroll("Buzz");
-        if (i % 3 && i % 5) (uBit.display.scroll(i));
+        if (i % 3 && i % 5) uBit.display.scroll(i);
         uBit.display.scroll(" ");
     }
     
