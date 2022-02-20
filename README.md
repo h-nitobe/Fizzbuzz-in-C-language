@@ -60,3 +60,7 @@ FizzBuzz をC言語で実装してみよう。
    
    [Microsoft MakeCode for micro:bit](https://makecode.microbit.org/?lang=ja)じゃなくともC++で構築する方法もあるんだ。
    ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
+
+1. PDP11/45 unixV7 でFizzBuzz・・・・・・・・[FizzBuzzUNIX7.cpp](FizzBuzzUNIX7.cpp)
+   ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
+   ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
