@@ -65,6 +65,7 @@ FizzBuzz をC言語で実装してみよう。
 
 PDP11/45 UNIX V7 でFizzBuzz。実機があるわけではない。Windows 11 上の WSL2 上の debian bullseye 上の simh PDP11/45 エミュレータ上の UNIX V7 で実行してみる。
 難儀な点
+
       1. CコンパイラがK&Rだ。
       1. この当時バックスペースはない。　
              "#"がそれに相当する。#include の # はエスケープが必要。
