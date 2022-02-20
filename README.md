@@ -62,5 +62,5 @@ FizzBuzz をC言語で実装してみよう。
    ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
 
 1. PDP11/45 unixV7 でFizzBuzz・・・・・・・・[FizzBuzzUNIX7.cpp](FizzBuzzUNIX7.cpp)
-   ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
-   ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
+   ![pdp11_45.jpg](pdp11_45.jpg)
+   ![unixV7.png](unixV7.png)
