@@ -62,5 +62,17 @@ FizzBuzz をC言語で実装してみよう。
    ![IMG_20220218_132559558.jpg](IMG_20220218_132559558.jpg)
 
 1. PDP11/45 unixV7 でFizzBuzz・・・・・・・・[FizzBuzzUNIX7.cpp](FizzBuzzUNIX7.cpp)
+
+PDP11/45 UNIX V7 でFizzBuzz。実機があるわけではない。Windows 11 上の WSL2 上の debian bullseye 上の simh PDP11/45 エミュレータ上の UNIX V7 で実行してみる。
+難儀な点
+   1. CコンパイラがK&Rだ。
+   2. この当時バックスペースはない。　
+        "#"がそれに相当する。#include の # はエスケープが必要。
+   3. この当時まだスクリーンエディタ vi がない。
+        ラインエディタ ed でちまちま入力する。
+        stdin から cat で流し込むけどね。
+   4. この当時 stdlib.h はまだない。
+        atoi() は K&R ではサンプルコードとして掲載されている。
+
    ![pdp11_45.jpg](pdp11_45.jpg)
    ![unixV7.png](unixV7.png)
