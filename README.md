@@ -74,10 +74,22 @@ PDP11/45 UNIX V7 でFizzBuzz。実機があるわけではない。Windows 11 �
    1. この当時まだスクリーンエディタ vi がない。
       ラインエディタ ed でちまちま入力する。
       stdin から cat で流し込むけどね。
-   3. この当時 stdlib.h はまだない。
+   1. この当時 stdlib.h はまだない。
       atoi() は K&R ではサンプルコードとして掲載されている。
    1. この当時の cc はエラーチェックを手抜きしている。
       lint コマンドによるエラーチェックが必須。
   
    ![pdp11_45.jpg](pdp11_45.jpg)
    ![unixV7.png](unixV7.png)
+
+1. MC68000 CP/M68K で FizzBuzz・・・・・・・・[FizzBuzzUNIX7.cpp](FizzBuzzUNIX7.cpp)
+
+MC68000 CP/M68K で FizzBuzz。実機があるわけではない。Windows 11 上の WSL2 上の debian bullseye 上の musashi MC68000エミュレータ上の CP/M-68K で実行してみる。現状の git ソースは makefile がめちゃくちゃで build 不能。某所で古いのがあったのでそれを利用。本来、CP68（プリプロセッサ）～C068（パーサ）～C168（コードジェネレータ）～AS68（アセンブラ）～LO68（リンカ）と個別に処理しなければならなかったはずだが、CC コマンド一発で .REL（リロケータブル実行ファイル）が生成される。
+
+   難儀な点
+
+   1. CコンパイラがK&Rだ。ま、時期的にそうだろうな。
+   2. エディタが ED か uEMACS しかない。新渡戸 EMACS に弱い。
+
+   ![cpm68k_1.png](cpm68k_1.png)
+   ![cpm68k_2.png](cpm68k_2.png)
