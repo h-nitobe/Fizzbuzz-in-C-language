@@ -89,7 +89,7 @@ MC68000 CP/M68K で FizzBuzz。実機があるわけではない。Windows 11 �
    難儀な点
 
    1. CコンパイラがK&Rだ。ま、時期的にそうだろうな。
-   2. エディタが ED か uEMACS しかない。新渡戸 EMACS に弱い。
+   1. エディタが ED か uEMACS しかない。新渡戸 EMACS に弱い。
 
    ![cpm68k_1.png](cpm68k_1.png)
    ![cpm68k_2.png](cpm68k_2.png)
