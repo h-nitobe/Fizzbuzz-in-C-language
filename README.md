@@ -98,7 +98,7 @@ MC68000 CP/M68K で FizzBuzz。実機があるわけではない。Windows 11 �
 
 J3100 DOSV で FizzBuzz。実機はあるが納戸の肥やし。Windows 11 上の WSL2 上の debian bullseye 上の DOSBOXJエミュレータ上の DOS で実行してみる。DOSBOXJ すげー　こいつら本気だ。昔所有していたJ3100SGTのハードディスクデータをKERMIT（RS232C）でサルベージしたデータであっさり動いた。MIFESエディタも何の細工も無しで動いた。
 
-   ![Salvage HDD data of J3100SGT101](https://www.saigyo.org/blog/index.php?mode=pages&aim=Salvage)
+   [Salvage HDD data of J3100SGT101](https://www.saigyo.org/blog/index.php?mode=pages&aim=Salvage)
 
    ![DSC00388.jpg](DSC00388.jpg)
    ![dosbox_1.png](dosbox_1.png)
