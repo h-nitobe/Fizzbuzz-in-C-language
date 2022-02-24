@@ -106,7 +106,7 @@ J3100 DOSV で FizzBuzz。実機はあるが納戸の肥やし。Windows 11 上�
    
 19. MAC(MC68000) で FizzBuzz・・・・・・・・・・・[FizzBuzzVMAC.c](FizzBuzzVMAC.c)
 
-MAC(MC68000) で FizzBuzz。実機はもうない。ヤフオクで売っ払っちまった。Windows 11 上の Mini vMac エミュレータで実行してみる。
+MAC(MC68000) で FizzBuzz。実機はもうない。ヤフオクで売っ払っちまった。Windows 11 上の Mini vMac エミュレータで実行してみる。LightspeedC 3.0.2 改め THINK C 3.0.2 である。エディタは勝手に起動して勝手に動く。何者かは分からない。
 
    ![vmac_1.png](vmac_1.png)
    ![vmac_2.png](vmac_2.png)
