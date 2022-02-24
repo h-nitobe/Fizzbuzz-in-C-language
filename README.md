@@ -94,7 +94,7 @@ MC68000 CP/M68K で FizzBuzz。実機があるわけではない。Windows 11 �
    ![cpm68k_1.png](cpm68k_1.png)
    ![cpm68k_2.png](cpm68k_2.png)
    
-18. MC68000 CP/M68K で FizzBuzz・・・・・・・・[FizzBuzzDOSBOX.c](FizzBuzzDOSBOX.c)
+18. J3100 DOSV で FizzBuzz・・・・・・・・[FizzBuzzDOSBOX.c](FizzBuzzDOSBOX.c)
 
 J3100 DOSV で FizzBuzz。実機はあるが納戸の肥やし。Windows 11 上の WSL2 上の debian bullseye 上の DOSBOXJエミュレータ上の DOS で実行してみる。DOSBOXJ すげー　こいつら本気だ。昔所有していたJ3100SGTのハードディスクの内容をKERMIT（RS232C）でサルベージしたデータであっさり動いた。MIFESエディタも何の細工も無しで動いた。
 
@@ -104,3 +104,10 @@ J3100 DOSV で FizzBuzz。実機はあるが納戸の肥やし。Windows 11 上�
    ![dosbox_1.png](dosbox_1.png)
    ![dosbox_2.png](dosbox_2.png)
    
+19. MAC(MC68000) で FizzBuzz・・・・・・・・・・・[FizzBuzzVMAC.c](FizzBuzzVMAC.c)
+
+MAC(MC68000) で FizzBuzz。実機はもうない。ヤフオクで売っ払っちまった。Windows 11 上の Mini vMac エミュレータで実行してみる。
+
+   ![vmac_1.png](vmac_1.png)
+   ![vmac_2.png](vmac_2.png)
+   ![vmac_3.png](vmac_3.png)
