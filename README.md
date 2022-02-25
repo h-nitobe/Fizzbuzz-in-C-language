@@ -121,7 +121,7 @@ Altair8800(Z80) で FizzBuzz。実機はない。Windows 11 上の simh Z80エ�
    ![cpm80_2.png](cpm80_2.png)
    ![cpm80_3.png](cpm80_3.png)
 
-21. FreeDOS で FizzBuzz・・・・・・・・・・・・・[FizzBuzzCPM80.c](FizzBuzzCPM80.c)
+21. FreeDOS で FizzBuzz・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
 
 FreeDOS で FizzBuzz。Windows 11 上の Oracle VM  VirtualBox 上の FreeDOS で実行してみる。
 
