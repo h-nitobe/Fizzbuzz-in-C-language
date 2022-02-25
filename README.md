@@ -111,3 +111,12 @@ MAC(MC68000) で FizzBuzz。実機はもうない。ヤフオクで売っ払っ�
    ![vmac_1.png](vmac_1.png)
    ![vmac_2.png](vmac_2.png)
    ![vmac_3.png](vmac_3.png)
+
+20. Altair8800(Z80) で FizzBuzz・・・・・・・・・・・[FizzBuzzCPM80.c](FizzBuzzCPM80.c)
+
+MAC(MC68000) で FizzBuzz。実機はない。Windows 11 上の simh Z80エミュレータで実行してみる。エディタは ED しかない。orz
+
+   ![Altair8800_Lamp.jpg](Altair8800_Lamp.jpg)
+   ![cpm80_1.png](cpm80_1.png)
+   ![cpm80_2.png](cpm80_2.png)
+   ![cpm80_3.png](cpm80_3.png)
