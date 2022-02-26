@@ -130,3 +130,4 @@ FreeDOS で FizzBuzz。Windows 11 上の Oracle VM  VirtualBox 上の FreeDOS �
    ![freedos_2.png](freedos_2.png)
    ![freedos_3.png](freedos_3.png)
    ![freedos_4.png](freedos_4.png)
+   ![freedos_5.png](freedos_5.png)
