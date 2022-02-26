@@ -135,7 +135,7 @@ FreeDOS で FizzBuzz。Windows 11 上の Oracle VM  VirtualBox 上の FreeDOS 1.
 
 22. FreeDOS で FizzBuzz 2・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
 
-FreeDOS が動いているうちに LSI-C の挙動を確認しておこう。「K&R プログラミング言語C」（第2版ではない）の「付録B」に、BDS-C か LSI-C　で試してみぃ・・・と書いてある。ソースは前項と一緒。
+FreeDOS が動いているうちに LSI-C の挙動を確認しておこう。K&R「プログラミング言語C」（第2版ではない）の「付録B」に、BDS-C か LSI-C で試してみぃ・・・と書いてある。ソースは前項と一緒。
 仮想FDの取り扱いで結構苦労しました。
 
    ![lsic.png](lsic.png)
