@@ -124,7 +124,7 @@ Altair8800(Z80) で FizzBuzz。実機はない。Windows 11 上の simh Z80エ�
 21. FreeDOS で FizzBuzz・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
 
 FreeDOS で FizzBuzz。Windows 11 上の Oracle VM  VirtualBox 上の FreeDOS 1.3 で実行してみる。なんと未だにメンテナンスされている。スクリーンエディタ EDIT 、VIM が同梱されている。新渡戸 vi は得意だ。同梱されている Cコンパイラは watcom C 。アセンブラソース出力オプションが無いなぁ・・・と思っていたら、逆アセンブラ wdis で .obj ファイルを処理して .asm ファイルにリダイレクトすれば得られる。
-ときに、起動画面で DHCP でアドレスを取得しているが、何をする気だ freedos ！
+ときに、起動画面で DHCP で IPアドレスを取得しているが、何をする気だ freedos ！
 
    ![freedos_0.png](freedos_0.png)
    ![freedos_1.png](freedos_1.png)
