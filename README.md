@@ -144,7 +144,7 @@ FreeDOS が動いているうちに LSI-C（試食版）の挙動を確認して
 
 Trying to make the hippo dance is not really a lot of fun.（カバにダンスを踊らせるのは、あまり楽しいことではない）。
 というわけで、カバにダンスを踊らせてみよう。djgpp（gcc）はボーナスCDに同梱されている。環境設定でちょっと苦労。ソースは前項と一緒。
-exe のサイズを比較してみよう。
+exe のサイズを比較してみよう。動作は全部一緒（に見える）。
 
         1. watcom c   8,800
         2. Bruce's C  3,300
