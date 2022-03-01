@@ -139,3 +139,16 @@ FreeDOS が動いているうちに LSI-C（試食版）の挙動を確認して
 仮想FDの取り扱いで結構苦労しました。
 
    ![lsic.png](lsic.png)
+
+23. FreeDOS で FizzBuzz 3・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
+
+Trying to make the hippo dance is not really a lot of fun.（カバにダンスを踊らせるのは、あまり楽しいことではない）。
+というわけで、カバにダンスを踊らせてみよう。djgpp（gcc）はボーナスCDに同梱されている。環境設定でちょっと苦労。ソースは前項と一緒。
+exe のサイズを比較してみよう。
+   1.　watcom c 8,800
+   2.　bcc      3,300
+   3.　LSI C   12,087
+   4.　gcc     80,770
+カバだ。
+
+   ![freedos_gcc.png](freedos_gcc.png)
