@@ -146,10 +146,10 @@ Trying to make the hippo dance is not really a lot of fun.（カバにダンス�
 というわけで、カバにダンスを踊らせてみよう。djgpp（gcc）はボーナスCDに同梱されている。環境設定でちょっと苦労。ソースは前項と一緒。
 exe のサイズを比較してみよう。
 
-        1. watcom c 8,800
-        2. bcc      3,300
-        3. LSI C   12,087
-        4. gcc     80,770
+        1. watcom c   8,800
+        2. Bruce's C  3,300
+        3. LSI C     12,087
+        4. gcc       80,770
 
 カバだ。
 
