@@ -154,3 +154,19 @@ exe のサイズを比較してみよう。動作は全部一緒（に見える�
 カバだ。
 
    ![freedos_gcc.png](freedos_gcc.png)
+
+
+
+24. FreeDOS で FizzBuzz 4・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
+
+子曰、温故而知新、可以為師矣。というわけで、Aztec C と Lattice C の登場である。野放図にCコンパイラをインストールしてきたので環境変数が干渉しだした。コマンド入力をフルパスにして頑張る。
+exe のサイズを比較してみよう。動作は全部一緒（に見える）。
+
+        1. watcom c   8,800
+        2. Bruce's C  3,300
+        3. LSI C     12,087
+        4. gcc       80,770
+
+カバだ。
+
+   ![freedos_gcc.png](freedos_gcc.png)
