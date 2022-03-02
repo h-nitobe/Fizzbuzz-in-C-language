@@ -160,12 +160,17 @@ exe のサイズを比較してみよう。動作は全部一緒（に見える�
 24. FreeDOS で FizzBuzz 4・・・・・・・・・・・・・[FizzBuzzFDOS.c](FizzBuzzFDOS.c)
 
 子曰、温故而知新、可以為師矣。というわけで、Aztec C と Lattice C の登場である。野放図にCコンパイラをインストールしてきたので環境変数が干渉しだした。コマンド入力をフルパスにして頑張る。
-exe のサイズを比較してみよう。動作は全部一緒（に見える）。
+
+Lattice C は .obj の生成までだ。リンカは Microsoft 8086 Object Linker を呼び出している。なるほどね。このあと、Lattice C は Microsoft C になってしまう。
+
+exe のサイズを比較してみよう。選択するライブラリで大幅に変化するであろう。が、全て標準のライブラリを使用。動作は全部一緒（に見える）。
 
         1. watcom c   8,800
         2. Bruce's C  3,300
         3. LSI C     12,087
         4. gcc       80,770
+        5. Aztec C   16,099
+        6. Lattice C 15,682
 
    ![AztecC.png](AztecC.png)
    ![LatticeC_1.png](LatticeC_1.png)
