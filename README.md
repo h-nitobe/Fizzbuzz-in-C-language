@@ -167,6 +167,6 @@ exe のサイズを比較してみよう。動作は全部一緒（に見える�
         3. LSI C     12,087
         4. gcc       80,770
 
-カバだ。
-
-   ![freedos_gcc.png](freedos_gcc.png)
+   ![AztecC.png](AztecC.png)
+   ![LatticeC_1.png](LatticeC_1.png)
+   ![LatticeC_2.png](LatticeC_2.png)
