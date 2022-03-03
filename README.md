@@ -190,3 +190,9 @@ OSと畳は新しい方が良い。というわけで、windows11 上の WSL2 �
 
    ![debian_1.png](debian_1.png)
    ![debian_2.png](debian_2.png)
+   
+ 26. GameBoy で FizzBuzz ・・・・・・・・・・・・・[FizzBuzzGB.c](FizzBuzzGB.c)
+
+人生にリセットボタンはない。コンティニューはある。というわけで、windows11 上の コマンドプロンプト上の、gbz80 開発環境と BGB ゲームボーイエミュレータで FizzBuzz。
+
+   ![GameBoy.png](GameBoy.png)
