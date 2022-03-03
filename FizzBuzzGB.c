@@ -14,7 +14,6 @@ int main()
 		if (i % 3 && i % 5) printf("%d", i);
 		 printf(" ");
 	}
-	printf("\n");
 
 	return 0;
 }
