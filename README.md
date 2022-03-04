@@ -193,6 +193,8 @@ OSと畳は新しい方が良い。というわけで、windows11 上の WSL2 �
    
  26. GameBoy で FizzBuzz ・・・・・・・・・・・・・[FizzBuzzGB.c](FizzBuzzGB.c)
 
-人生にリセットボタンはない。コンティニューはある。というわけで、windows11 上の コマンドプロンプト上の、gbz80 開発環境と BGB ゲームボーイエミュレータで FizzBuzz。
+人生にリセットボタンはない。コンティニューはある。というわけで、ゲームボーイで FizzBuzz 。実機はとっくのとおに無い。windows11 上の コマンドプロンプト上の、gbz80 開発環境と BGB ゲームボーイエミュレータで実行する。
+
+ゲームボーイに改行はない。
 
    ![GameBoy.png](GameBoy.png)
