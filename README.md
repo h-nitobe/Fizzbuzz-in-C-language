@@ -197,3 +197,12 @@ OSと畳は新しい方が良い。というわけで、windows11 上の WSL2 �
 
    ![FamilyComputer.png](FamilyComputer.png)
    ![GameBoy.png](GameBoy.png)
+
+ 27.  【番外編】Nintendo Switch で FizzBuzz ・・・・・・ [FIZZBUZZ.BAS](FIZZBUZZ.BAS)
+
+「ハードはソフトを遊んでもらうために仕方なく買ってもらう箱である」by 任天堂元社長山内溥 というわけで、息子がお年玉で仕方なく買った　Switch を取り上げて、プチコン４（SmileBASIC 4.4.5）をインストールしてFizzBuzz。
+
+リファレンスマニュアルの「制御命令」が＠ラベル～ GOTO から始まる。スパゲティプログラマ養成ギブスだ。
+
+   ![Switch_1.png](Switch_1.png)
+   ![Switch_2.png](Switch_2.png)
