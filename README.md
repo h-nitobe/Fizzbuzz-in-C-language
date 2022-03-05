@@ -206,3 +206,12 @@ OSと畳は新しい方が良い。というわけで、windows11 上の WSL2 �
 
    ![Switch_1.png](Switch_1.png)
    ![Switch_2.png](Switch_2.png)
+
+ 28. moto g9 (Android) で FizzBuzz ・・・・・・[FizzBuzzDebian.c](FizzBuzzDebian.c)
+
+Talk is cheap. Show me the code.おしゃべりはいいから、コード見せろよ。Linus Torvalds（リーナス・トーバルズ）というわけで、Moto g9 (Android) で、お出かけ先で Fizzbuzz。昔は Android の root を奪取して debian をインストールするという荒業が必要だったが、今は、debian noroot というアプリがある。いい時代だなぁ。
+
+   ![android_1.png](android_1.png)
+   ![android_2.png](android_2.png)
+   ![android_3.png](android_3.png)
+   ![android_4.png](android_4.png)
