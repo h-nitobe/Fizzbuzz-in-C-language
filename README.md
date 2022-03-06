@@ -216,6 +216,8 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
    ![android_3.png](android_3.png)
    ![android_4.png](android_4.png)
 
- 29. Androidアプリ で FizzBuzz
+ 29. 【番外編】Androidアプリ で FizzBuzz
 
-「画面は青かった」[通信用語の基礎知識](https://www.wdic.org/w/SCI/画面は青かった) というわけで、M
+「画面は青かった」[通信用語の基礎知識](https://www.wdic.org/w/SCI/画面は青かった) というわけで、Androidアプリに FizzBuzz はないだろうか・・・あった。
+
+   ![appli_1.png](appli_1.png)
