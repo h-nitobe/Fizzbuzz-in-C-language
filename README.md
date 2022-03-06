@@ -239,12 +239,6 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
  
  Kotlinで書かれたコードはJVM（Java Virtual Machine：Java仮想マシン）で動作するJavaバイトコード（おなじみのclassファイル）へコンパイルされます。このようなプログラミング言語をJVM言語と呼ぶことがあります。
  
-   1. Java互換
-   1. 少なくともJavaと同等のコンパイル速度
-   1. Javaよりも安全：nullポインタの逆参照（注1）のようなありふれた落とし穴のための静的チェックなど
-   1. Javaよりも簡潔：型変数の推論，高階関数（クロージャ⁠）⁠，拡張関数，ミックスインや第一級デリゲーションなどをサポート
-   1. Scalaよりもシンプルな方法で，表現力を実用的なレベルに維持する
-
 kotrinc javac は .class ファイルを生成するコンパイラ。kotlin java は JVM。つまり、kotlin = java。スクリーンショットを見ていただくと分るが、コンパイルされた .class ファイルは相互で実行可能。
 
    ![kotlin.png](kotlin.png)
