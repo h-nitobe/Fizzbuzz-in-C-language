@@ -218,7 +218,7 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
 
  29. 【番外編】Androidアプリ で FizzBuzz
 
-「画面は青かった」[通信用語の基礎知識](https://www.wdic.org/w/SCI/画面は青かった) というわけで、Androidアプリに FizzBuzz はないだろうか・・・あった。
+「画面は青かった」[通信用語の基礎知識](https://www.wdic.org/w/SCI/画面は青かった) というわけで、Androidアプリに FizzBuzz はないだろうか・・・あった。ゲーム版はムズイぞ。
 
    ![appli_1.png](appli_1.png)
    ![appli_2.png](appli_2.png)
