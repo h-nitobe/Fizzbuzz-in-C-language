@@ -229,5 +229,7 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
 
 「そう囁くのよ、私のゴーストが。」草薙素子　というわけで、私のゴーストが Android Studio で FizzBuzzアプリを作れと囁くのでやってみた。手に入れたのは Android Studio Bumblebee | 2021.1.1 Patch 「トランスフォーマー」かい？オブジェクト指向ではない爺様はひいひい言いながら JAVA でコーディングする。右下のエミュレータで動いた動いた。気が済んだ。
 
+.java は修正追加箇所をコメントできるが、.xmlのタグの中はコメントできない。activity_main.xml 追加したのは、L9、L14。
+
    ![AndroidStudio.png](AndroidStudio.png)
 
