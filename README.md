@@ -233,3 +233,7 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
 
    ![AndroidStudio.png](AndroidStudio.png)
 
+　31. 【番外編】kotlin で FizzBuzz・・・・・・[fizzbuzz.kt](fizzbuzz.kt)　[FizzBuzz.java](FizzBuzz.java)
+
+   ![kotlin.png](kotlin.png)
+   ![java.png](java.png)
