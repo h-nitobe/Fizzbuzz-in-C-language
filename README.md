@@ -227,7 +227,7 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
 
 　30. 【番外編】Android Studio で FizzBuzz・・・・・・[MainActivity.java](MainActivity.java)　[activity_main.xml](activity_main.xml)
 
-「そう囁くのよ、私のゴーストが。」草薙素子　というわけで、私のゴーストが Android Studio で FizzBuzzアプリを作れと囁くのでやってみた。手に入れたのは Android Studio Bumblebee | 2021.1.1 Patch 「トランスフォーマー」かい？オブジェクト指向ではない爺様はひいひい言いながら JAVA でコーディングしてみる。右下のエミュレータで動いた動いた。気が済んだ。
+「そう囁くのよ、私のゴーストが。」草薙素子　というわけで、私のゴーストが Android Studio で FizzBuzzアプリを作れと囁くのでやってみた。手に入れたのは Android Studio Bumblebee | 2021.1.1 Patch 「トランスフォーマー」かい？オブジェクト指向ではない爺様はひいひい言いながら JAVA でコーディングする。右下のエミュレータで動いた動いた。気が済んだ。
 
    ![AndroidStudio.png](AndroidStudio.png)
 
