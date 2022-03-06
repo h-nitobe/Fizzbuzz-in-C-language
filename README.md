@@ -229,5 +229,5 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
 
 「そう囁くのよ、私のゴーストが。」草薙素子　というわけで、私のゴーストが Android Studio で FizzBuzzアプリを作れと囁くのでやってみた。手に入れたのは Android Studio Bumblebee | 2021.1.1 Patch 「トランスフォーマー」かい？オブジェクト指向ではない爺様はひいひい言いながら JAVA でコーディングしてみる。右下のエミュレータで動いた動いた。気が済んだ。
 
-   ![appli_4.png](appli_4.png)
+   ![AndroidStudio.png](AndroidStudio.png)
 
