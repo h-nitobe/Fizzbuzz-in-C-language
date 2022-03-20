@@ -237,7 +237,7 @@ Talk is cheap. Show me the code.おしゃべりはいいから、コード見せ
  
  へんじがない。ただの　しかばね　のようだ。前項の Android Studio は java がデフォルトだが、kotlin の選択肢もある。コトリンって何だ？今後 kotlin による Android の開発が増えてくるのだそうだ。
  
- Kotlinで書かれたコードはJVM（Java Virtual Machine：Java仮想マシン）で動作するJavaバイトコード（おなじみのclassファイル）へコンパイルされます。このようなプログラミング言語をJVM言語と呼ぶことがあります。
+ Kotlinで書かれたコードはJVM（Java Virtual Machine：Java仮想マシン）で動作するJavaバイトコード（おなじみのclassファイル）へコンパイルされる。このようなプログラミング言語をJVM言語と呼ぶことがある。
  
 kotrinc javac は .class ファイルを生成するコンパイラ。kotlin java は JVM。つまり、kotlin = java。スクリーンショットを見ていただくと分るが、コンパイルされた .class ファイルは相互で実行可能。
 
