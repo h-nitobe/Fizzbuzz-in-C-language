@@ -26,6 +26,7 @@ FizzBuzz をC言語で実装してみよう。
 1. 排他的論理和で判定・・・・・・・・・・・・[FizzBuzzExor.c](FizzBuzzExor.c)
 1. 論理積で判定・・・・・・・・・・・・・・・[FizzBuzzAnd.c](FizzBuzzAnd.c)
 1. 循環配列で判定・・・・・・・・・・・・・・[FizzBuzzArr.c](FizzBuzzArr.c)
+   1. ループの中で判断をしない新井田教授版・・[FizzBuzzNIIDA.c](FizzBuzzNIIDA.c)
 1. i%15 が循環することに気づいた？
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
    1. テーブル参照・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
