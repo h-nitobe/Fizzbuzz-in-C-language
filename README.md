@@ -35,6 +35,12 @@ FizzBuzz をC言語で実装してみよう。
 1. 十進数操作（まどろっこい）・・・・・・・・[FizzBuzzDec.c](FizzBuzzDec.c)
 1. 三角関数で判定・・・・・・・・・・・・・・[FizzBuzzSin.c](FizzBuzzSin.c)
 1. ファイル操作版・・・・・・・・・・・・・・[FizzBuzzFile.c](FizzBuzzFile.c)
+1. ロゼッタコードでちょっと気になるFizzBuzz
+   1. FizzBuzzR1 ・・・・・・・・・・・・・[FizzBuzzRC1.c](FizzBuzzRC1.c)
+   1. FizzBuzzR2 ・・・・・・・・・・・・・[FizzBuzzRC2.c](FizzBuzzRC2.c)
+   1. FizzBuzzR3 (Vc7ではコンパイルできない)・・[FizzBuzzRC3.c](FizzBuzzRC3.c)
+   1. FizzBuzzR4 ・・・・・・・・・・・・・[FizzBuzzRC4.c](FizzBuzzRC4.c)
+   1. FizzBuzzR5 ・・・・・・・・・・・・・[FizzBuzzRC5.c](FizzBuzzRC5.c)
 1. GR-SAKURA(RX63N)でFizzBuzz・・・・・・・[FizzBuzz.c](FizzBuzz.c)
 
    仕様変更：　1~15を2進数でLEDに表示　15：^ド　3: ミ　5:ソ　その他:ド　を発音する
