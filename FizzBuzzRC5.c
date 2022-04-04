@@ -10,7 +10,7 @@
 #include	<stdio.h>
 #include	<string.h>
 
-int main()
+int main(void)
 {
 	int		i;
 	char	f[11];
@@ -22,6 +22,5 @@ int main()
 		printf(" ");
     }
 	printf("\n");
-	
-	return 0;
+
 }
