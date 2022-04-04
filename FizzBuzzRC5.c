@@ -1,6 +1,6 @@
 /**
-*	@file		FizzBuzzRC2.c
-*	@brief		ロゼッタコードのFizzBuzz達２
+*	@file		FizzBuzzRC5.c
+*	@brief		ロゼッタコードのFizzBuzz達５
 *	@author		ロゼッタコードより
 *	@date		2022/04/04
 *	@details	http://rosettacode.org/wiki/FizzBuzz#C
