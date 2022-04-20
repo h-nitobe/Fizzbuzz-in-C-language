@@ -1,8 +1,8 @@
 /**
 *	@file		FizzBuzzModTriPure.c
 *	@brief		剰余でFizzBuzz　三項演算子
-*	@author		2022仙台受講者
-*	@date		2022/04/20
+*	@author		2022仙台受講者／新渡戸広明改
+*	@date		2022/04/21
 *	@details	三項演算子でがんばる
 */
 
