@@ -1,7 +1,7 @@
 /**
 *	@file		FizzBuzzModTriPure.c
 *	@brief		剰余でFizzBuzz　三項演算子
-*	@author		2022仙台受講者／新渡戸広明改
+*	@author		2022新横浜
 *	@date		2022/04/21
 *	@details	三項演算子でがんばる
 */
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	max = atoi(argv[1]);	// 第２引数を数値で格納　第３引数以降は無視します
 	
 	for (i = 1; i <= max; i++) {
-		printf(i % 15 ? (i % 3 ? (i % 5 ? "%d ": "Buzz ") : "Fizz ") : "FizzBuzz ", i);
+		printf(i % 3 ? ((i % 5) ? "%d " : "Buzz ") : ((i % 5) ? "Fizz " : "FizzBuzz "), i);
 	}
 	printf("\n");
 	

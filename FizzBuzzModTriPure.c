@@ -1,7 +1,7 @@
 /**
 *	@file		FizzBuzzModTriPure.c
 *	@brief		剰余でFizzBuzz　三項演算子
-*	@author		2022仙台受講者
+*	@author		2022仙台 高橋輪太さん
 *	@date		2022/04/20
 *	@details	三項演算子でがんばる
 */
