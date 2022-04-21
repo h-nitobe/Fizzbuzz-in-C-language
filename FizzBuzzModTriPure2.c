@@ -1,7 +1,7 @@
 /**
 *	@file		FizzBuzzModTriPure.c
 *	@brief		剰余でFizzBuzz　三項演算子
-*	@author		2022川崎　岡﨑寛
+*	@author		2022川崎　岡﨑寛さん
 *	@date		2022/04/21
 *	@details	三項演算子でがんばる
 */
