@@ -1,20 +1,20 @@
 /**
-*	@file		FizzBuzzFin.c
-*	@brief		指折り数えてFizzBuzz
+*	@file		FizzBuzzShlr.c
+*	@brief		ビットシフトでFizzBuzz
 *	@author		新渡戸広明
 *	@date		2022/02/06
-*	@details	ビットシフトだけどね
+*	@details	
 */
 
 #include	<stdio.h>	// for printf()
 #include	<stdlib.h>	// for atoi()
 
-#define		FIZZ	0x7
-#define		BUZZ	0x1f
+#define		FIZZ	4
+#define		BUZZ	16
 
 int main(int argc, char *argv[])
 {
-	int	fizz = FIZZ, buzz = BUZZ;	// fizz 0b0000111 buzz 0b00011111 これらを右シフトします
+	int	fizz = FIZZ, buzz = BUZZ;	// fizz 0b0000100 buzz 0b00010000 これらの１を右シフトします
 	int	max, i, count = 0;
 	
 	if (argc < 2) {		// 第２引数が存在しない
@@ -38,11 +38,9 @@ int main(int argc, char *argv[])
 			count += printf("Buzz");
 			buzz = BUZZ;
 		}
-		
 		if (!count) {
 			printf("%d", i);
 		}
-		
 		printf(" ");
 	}
 	printf("\n");

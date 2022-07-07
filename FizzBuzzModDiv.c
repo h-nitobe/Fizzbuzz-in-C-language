@@ -3,7 +3,7 @@
 *	@brief		剰余でFizzBuzz 標準ライブラリを利用する
 *	@author		新渡戸広明
 *	@date		2022/02/10
-*	@details	
+*	@details	% でいいじゃないか
 */
 #include	<stdio.h>
 #include	<stdlib.h>	// for atoi(), div()

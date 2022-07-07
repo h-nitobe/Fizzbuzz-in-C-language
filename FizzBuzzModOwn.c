@@ -6,17 +6,22 @@
 *	@details	割り算命令が無いCPUを使うハメになった不運なあなたへ
 *				たぶんコンパイラが宜しくやってくれるんだけどね
 */
-#include	<stdio.h>
+#include	<stdio.h>	// for printf()
 #include	<stdlib.h>	// for atoi()
+
+//#define	DEBUG
 
 typedef	unsigned int	U32;
 
 int pml1(U32 x);
 void div3(U32 num, U32 *q, U32 *m);
 void div5(U32 num, U32 *q, U32 *m);
+
+#ifdef	DEBUG
 void test_pml1(void);
 void test_div3(void);
 void test_div5(void);
+#endif
 
 /**
 *	@fn			int main(int argc, char *argv[])
@@ -141,6 +146,7 @@ void div5(U32 n, U32 *q, U32 *m)
 	*m = n;								// 残っているのは剰余
 }
 
+#ifdef DEBUG
 /**
 *	@fn			void test_pml1(void),void test_div3(void),void test_div5(void)
 *	@brief 		デバグ用
@@ -177,3 +183,4 @@ void test_div5(void)
 		printf("%x %08x %08x %08x %08x\n", i, q, m, i/5, i%5);
 	}
 }
+#endif

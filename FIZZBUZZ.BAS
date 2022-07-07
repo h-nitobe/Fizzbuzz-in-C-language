@@ -1,0 +1,17 @@
+CLS
+
+PRINT "Hello Nintendo Switch"
+PRINT "---------------------"
+PRINT
+
+FOR I=1 TO 256 STEP 1
+  IF I MOD 3 THEN FIZZ=0 ELSE FIZZ=1
+  IF I MOD 5 THEN BUZZ=0 ELSE BUZZ=1
+
+  IF FIZZ==1 THEN PRINT "Fizz";
+  IF BUZZ==1 THEN PRINT "Buzz";
+  IF FIZZ==0&&BUZZ==0 THEN PRINT i;
+  PRINT " ";
+NEXT
+PRINT
+END

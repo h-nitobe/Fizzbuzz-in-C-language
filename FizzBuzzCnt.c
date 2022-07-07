@@ -18,25 +18,24 @@ int main(int argc, char *argv[])
 		printf("使用法：" __FILE__ "\b\b 16\n");
 		return -1;
 	}
-	
 	max = atoi(argv[1]);	// 第２引数を数値で格納　第３引数以降は無視します
 	
 	for (i = 1; i <= max; i++) {
-		fizz++;
-		buzz++;
+		if (++fizz >= 3) fizz = 0;
+		if (++buzz >= 5) buzz = 0;
 	
-		if (3 <= fizz) {
+		if (!fizz) {
 			printf("Fizz");
-			fizz = 0;
 		}
 		
-		if (5 <= buzz) {
+		if (!buzz) {
 			printf("Buzz");
-			buzz = 0;
 		}
+		
 		if (fizz && buzz) {
 			printf("%d", i);
 		}
+		
 		printf(" ");
 	}
 	printf("\n");

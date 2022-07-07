@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	
 	if (argc < 2) {		// ‘æ‚Qˆø”‚ª‘¶Ý‚µ‚È‚¢
 		printf("Žg—p–@F" __FILE__ "\b\b 16\n");
-		return -1;
+		return  -1;
 	}
 	
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ð”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³Ž‹‚µ‚Ü‚·
