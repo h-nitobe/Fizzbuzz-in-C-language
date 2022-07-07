@@ -252,3 +252,14 @@ kotrinc javac は .class ファイルを生成するコンパイラ。kotlin jav
 
    ![kotlin.png](kotlin.png)
    ![java.png](java.png)
+
+　32.  RISC-V で FizzBuzz・・・・・・[FizzBuzzRISCV.c](FizzBuzzRISCV.c)
+ 
+No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V を試してみる。WSL2 上で QEMU やら TinyEmu なんかをトライしてみたが、web上で試せるじゃないか！
+
+[JSLinux](https://bellard.org/jslinux/)
+
+おお、RISC-V のアセンブリ言語だ！
+
+   ![FizzBuzzRISCV_01.png](FizzBuzzRISCV_01.png)
+   ![FizzBuzzRISCV_02.png](FizzBuzzRISCV_02.png)
