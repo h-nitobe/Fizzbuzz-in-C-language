@@ -259,5 +259,7 @@ No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V 
 
 [JSLinux](https://bellard.org/jslinux/)
 
+おお、RISC-V のアセンブリ言語だ！
+
    ![FizzBuzzRISCV_01.png](FizzBuzzRISCV_01.png)
    ![FizzBuzzRISCV_02.png](FizzBuzzRISCV_02.png)
