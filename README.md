@@ -263,3 +263,5 @@ No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V 
 
    ![FizzBuzzRISCV_01.png](FizzBuzzRISCV_01.png)
    ![FizzBuzzRISCV_02.png](FizzBuzzRISCV_02.png)
+   ![FizzBuzzRISCV_03.png](FizzBuzzRISCV_03.png)
+   ![FizzBuzzRISCV_04.png](FizzBuzzRISCV_04.png)
