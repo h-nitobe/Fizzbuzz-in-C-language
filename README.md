@@ -120,6 +120,11 @@ MAC(MC68000) で FizzBuzz。実機はもうない。ヤフオクで売っ払っ�
    ![vmac_1.png](vmac_1.png)
    ![vmac_2.png](vmac_2.png)
    ![vmac_3.png](vmac_3.png)
+   
+2022/07/15 追記
+
+   ![vmac_4.png](vmac_4.png)
+
 
 20. Altair8800(Z80) で FizzBuzz・・・・・・・・・・・[FizzBuzzCPM80.c](FizzBuzzCPM80.c)
 
