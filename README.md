@@ -266,7 +266,11 @@ No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V 
    ![FizzBuzzRISCV_03.png](FizzBuzzRISCV_03.png)
    ![FizzBuzzRISCV_04.png](FizzBuzzRISCV_04.png)
 
-33. 【番外編】FM11 OS9 BASIC09 で FizzBuzz・・・・・・[FizzBuzzFM11](FizzBuzzFM11)　[activity_main.xml](activity_main.xml)
+33. 【番外編】FM11 OS9 BASIC09 で FizzBuzz・・・・・・[FizzBuzzFM11](FizzBuzzFM11)
+
+I got a bad feeling about this.(Han Solo) というわけで、FM11エミュレータ OS9 basic09 で FizzBuzz 。
+Microware C Compiler で試したかったが、ネット上に落ちているわけもなく、標準装備の basic09 で実装。
+[FM11](http://nanno.bf1.jp/softlib/man/fm11/)
 
    ![fm11_01.png](fm11_01.png)
    ![fm11_02.png](fm11_02.png)
