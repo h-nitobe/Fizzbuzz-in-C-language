@@ -270,6 +270,8 @@ No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V 
 
 I got a bad feeling about this.(Han Solo) というわけで、FM11エミュレータ OS9 basic09 で FizzBuzz 。
 Microware C Compiler で試したかったが、ネット上に落ちているわけもなく、標準装備の basic09 で実装。
+日付に 22/07/15　と入力すると、 July 15, 1922 となる。2000年問題未対応だ。
+
 [FM11](http://nanno.bf1.jp/softlib/man/fm11/)
 
    ![fm11_01.png](fm11_01.png)
