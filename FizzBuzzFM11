@@ -1,0 +1,15 @@
+0000      DIM i:INTEGER
+0007      FOR i=1 TO 100
+0017        IF MOD(i,3)=0 THEN
+0026          PRINT "Fizz";
+002F        ENDIF
+0031        IF MOD(i,5)=0 THEN
+0040          PRINT "Buzz";
+0049        ENDIF
+004B        IF MOD(i,3)<>0 AND MOD(i,5)<>0 THEN
+0064          PRINT i;
+006A        ENDIF
+006C        PRINT " ";
+0072      NEXT i
+007D      PRINT
+007F      END
