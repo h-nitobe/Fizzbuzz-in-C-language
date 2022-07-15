@@ -265,3 +265,8 @@ No! Try not. Do. Or do not. There is no try. (Yoda) というわけで、RISC-V 
    ![FizzBuzzRISCV_02.png](FizzBuzzRISCV_02.png)
    ![FizzBuzzRISCV_03.png](FizzBuzzRISCV_03.png)
    ![FizzBuzzRISCV_04.png](FizzBuzzRISCV_04.png)
+
+33. 【番外編】FM11 OS9 BASIC09 で FizzBuzz・・・・・・[FizzBuzzFM11](FizzBuzzFM11)　[activity_main.xml](activity_main.xml)
+
+   ![fm11_01.png](fm11_01.png)
+   ![fm11_02.png](fm11_02.png)
