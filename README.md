@@ -285,6 +285,7 @@ Microware C Compiler で試したかったが、ネット上に落ちている�
 34. X68000 Human68k XC で FizzBuzz・・・・・・[FizzBuzzX68k.c](FizzBuzzX68k.c)[FizzBuzzX68k.s](FizzBuzzX68k.s)
 
 Don't think... feel...(Yoda) というわけで、 XM6(X68000エミュレータ）on　Win11　/ Human68k / XC で FizzBuzz 。
+/Fs オプションでアセンブラソースが見られる。68000ニーモニックだ。おっと、剰余は DIVS を使わず、浮動小数点ライブラリを呼んでやがる。
 
 [XM6](http://retropc.net/pi/xm6/index.html)
 
