@@ -1,0 +1,100 @@
+	include fefunc.h
+	.GLOBL	_main
+	.TEXT
+_main:
+~~_main:
+	LINK	A6,#-2
+* LINE7 = 7
+	MOVE.L	#1,D0
+	MOVE.W	D0,-2(A6)
+L4:
+* LINE7 = 7
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	CMP.L	#100,D0
+	BGT	L5
+* LINE8 = 8
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	MOVE.L	#3,D1
+	MOVEM.L	D0/D1,-(SP)
+	FPACK	__CLMOD
+	MOVEM.L	(SP)+,D0/D1
+	TST.L	D0
+	BNE	L7
+* LINE8 = 8
+	MOVE.L	#L8,-(SP)
+	JSR	_printf
+	ADDQ.L	#4,SP
+L7:
+* LINE9 = 9
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	MOVE.L	#5,D1
+	MOVEM.L	D0/D1,-(SP)
+	FPACK	__CLMOD
+	MOVEM.L	(SP)+,D0/D1
+	TST.L	D0
+	BNE	L9
+* LINE9 = 9
+	MOVE.L	#L10,-(SP)
+	JSR	_printf
+	ADDQ.L	#4,SP
+L9:
+* LINE10 = 10
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	MOVE.L	#3,D1
+	MOVEM.L	D0/D1,-(SP)
+	FPACK	__CLMOD
+	MOVEM.L	(SP)+,D0/D1
+	TST.L	D0
+	BEQ	L11
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	MOVE.L	#5,D1
+	MOVEM.L	D0/D1,-(SP)
+	FPACK	__CLMOD
+	MOVEM.L	(SP)+,D0/D1
+	TST.L	D0
+	BEQ	L11
+* LINE10 = 10
+	MOVE.W	-2(A6),D0
+	EXT.L	D0
+	MOVE.L	D0,-(SP)
+	MOVE.L	#L12,-(SP)
+	JSR	_printf
+	ADDQ.L	#8,SP
+L11:
+* LINE11 = 11
+	MOVE.L	#L13,-(SP)
+	JSR	_printf
+	ADDQ.L	#4,SP
+L6:
+* LINE7 = 7
+	ADDQ.W	#1,-2(A6)
+	BRA	L4
+L5:
+* LINE13 = 13
+	MOVE.L	#L14,-(SP)
+	JSR	_printf
+	ADDQ.L	#4,SP
+L3:
+	UNLK	A6
+	RTS
+
+
+	.TEXT
+L8:
+	.DC.B	$46,$69,$7A,$7A,$00
+L10:
+	.DC.B	$42,$75,$7A,$7A,$00
+L12:
+	.DC.B	$25,$64,$00
+L13:
+	.DC.B	$20,$00
+L14:
+	.DC.B	$0A,$00
+
+	.XREF	__main
+	.END
