@@ -281,3 +281,14 @@ Microware C Compiler で試したかったが、ネット上に落ちている�
 
    ![fm11_01.png](fm11_01.png)
    ![fm11_02.png](fm11_02.png)
+
+34. X68000 Human68k XC で FizzBuzz・・・・・・[FizzBuzzX68k.c](FizzBuzzX68k.c)[FizzBuzzX68k.s](FizzBuzzX68k.s)
+
+Don't think... feel...(Yoda) というわけで、 XM6(X68000エミュレータ）on　Win11　/ Human68k / XC で FizzBuzz 。
+
+[XM6](http://retropc.net/pi/xm6/index.html)
+
+   ![XM6_1.png](XM6_1.png)
+   ![XM6_2.png](XM6_2.png)
+   ![XM6_3.png](XM6_3.png)
+   
