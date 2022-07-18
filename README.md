@@ -297,3 +297,11 @@ Don't think... feel...(Yoda) というわけで、 XM6(X68000エミュレータ�
    ![XM6_2.png](XM6_2.png)
    ![XM6_3.png](XM6_3.png)
    
+35. RaspberryPi3 で FizzBuzz・・・・・・[FizzBuzzRBP3.c](FizzBuzzRBP3.c)　[FizzBuzzRBP3.s](FizzBuzzRBP3.s)
+
+I love you.(Leia Organa)　I know.(Han Solo) というわけで、 RaspberryPi3 で FizzBuzz。arm のニーモニックが見たかった。
+なんと！[FizzBuzzModOwn2.c](FizzBuzzModOwn2.c) と同様のアルゴリズムを用いて自前で i%3 i%5 を実装してる。
+
+   ![RBP3_0.png](RBP3_0.png)
+   ![RBP3_1.png](RBP3_1.png)
+   ![RBP3_2.png](RBP3_2.png)
