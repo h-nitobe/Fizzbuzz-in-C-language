@@ -305,3 +305,9 @@ I love you.(Leia Organa)　I know.(Han Solo) というわけで、 RaspberryPi3 
    ![RBP3_0.png](RBP3_0.png)
    ![RBP3_1.png](RBP3_1.png)
    ![RBP3_2.png](RBP3_2.png)
+
+36.【番外編】Julia で Fizzbuzz ・・・・・[FizzBuzzJulia.jl](FizzBuzzJulia.jl)
+
+朝には紅顔ありて夕には白骨となれる云々（五帖御文・蓮如）というわけで、RaspberryPi4上 の Julia で FizzBuzz。
+Julia の string の連結は「*」、繰り返しは「＾」である。true は「1」、false は「0」なので文字列のOn/Offができる。
+   ![FizzBuzzJulia.png](FizzBuzzJulia.png)
