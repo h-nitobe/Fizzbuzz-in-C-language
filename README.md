@@ -311,3 +311,9 @@ I love you.(Leia Organa)　I know.(Han Solo) というわけで、 RaspberryPi3 
 朝には紅顔ありて夕には白骨となれる云々（五帖御文・蓮如）というわけで、RaspberryPi4上 の Julia で FizzBuzz。
 Julia の string の連結は「*」、繰り返しは「＾」である。true は「1」、false は「0」なので文字列のOn/Offができる。
    ![FizzBuzzJulia.png](FizzBuzzJulia.png)
+   
+37. 【番外編】Python で FizzBuzz
+
+"Everything that has a beginning has an ending."　/ Agent Smith(MATRIX) というわけで、python で FizzBuzz。
+python での strings の反復は「*」、連結は「+」。三項演算子は変態。
+   ![FizzBuzzPython.png](FizzBuzzPython.png)
