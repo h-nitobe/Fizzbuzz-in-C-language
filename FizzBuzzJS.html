@@ -18,10 +18,7 @@
 
 		for (i = 1; i <= max; i++) {
 			msg = ((i%3) ? '': 'fizz') + ((i%5) ? '': 'buzz')
-			if (!msg) {					// 空文字だったら
-				msg = i
-			}
-			document.write(msg + ' ')
+			document.write((msg? msg: i) + ' ')
 		}
 		document.write('<br>')
 	</script>
