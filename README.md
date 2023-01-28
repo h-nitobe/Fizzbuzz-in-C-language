@@ -321,4 +321,4 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
 38.【番外編】JavaScript で Fizzbuzz・・・[FizzBuzzJS.html](FizzBuzzJS.html)
 
 ふるさとは遠きにありて思ふもの「小景異情」(室生犀星)  というわけで、javaScript で FizzBuzz。
-   ![FizzBuzzJS.html](FizzBuzzJS.html)
+   https://github.com/h-nitobe/Fizzbuzz-in-C-language/blob/main/FizzBuzzJS.html
