@@ -1,9 +1,9 @@
 #=
-*	@file		FizzBuzzJulia.jl
-*	@brief		JuliaŒ¾Œê‚ÅFizzBuzz
-*	@author		V“nŒËL–¾
-*	@date		2023/01/07
-*	@details	FizzBuzz‚ğJuliaŒ¾Œê‚ÅÀ‘•‚·‚é
+	@file		FizzBuzzJulia.jl
+	@brief		JuliaŒ¾Œê‚ÅFizzBuzz
+	@author		V“nŒËL–¾
+	@date		2023/01/07
+	@details	FizzBuzz‚ğJuliaŒ¾Œê‚ÅÀ‘•‚·‚é
 =#
 
 function fizzbuzz(max)
@@ -12,3 +12,5 @@ function fizzbuzz(max)
                 print(isempty(msg) ? i : msg , " ")
         end
 end
+
+fizzbuzz(100)
