@@ -1,0 +1,29 @@
+<!--
+	@file		FizzBuzzJS.html
+	@brief		JavaScript で FizzBuzz
+	@author		新渡戸広明 Hiroaki Nitobe
+	@date		2023/01/28
+	@details	
+-->
+<html>
+<head>
+	<title>FizzBuzzJS</title>
+</head>
+<body>
+	<h1>FizzBuzz in JavaScript</h1>
+	<script type="text/javascript">
+		do {
+			max = prompt("最大値を入力してください", "半角数字")
+		} while (isNaN(max))			// 数字じゃなかったら永遠に差し戻し
+
+		for (i = 1; i <= max; i++) {
+			msg = ((i%3) ? '': 'fizz') + ((i%5) ? '': 'buzz')
+			if (!msg) {					// 空文字だったら
+				msg = i
+			}
+			document.write(msg + ' ')
+		}
+		document.write('<br>')
+	</script>
+</body>
+</html>
