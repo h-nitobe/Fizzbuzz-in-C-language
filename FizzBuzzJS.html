@@ -17,7 +17,7 @@
 		} while (isNaN(max))			// 数字じゃなかったら永遠に差し戻し
 
 		for (i = 1; i <= max; i++) {
-			msg = (i%3 ? '': 'fizz') + (i%5 ? '': 'buzz')
+			msg = (i%3? '': 'fizz') + (i%5? '': 'buzz')
 			document.write((msg? msg: i) + ' ')
 		}
 		document.write('<br>')
