@@ -317,3 +317,8 @@ Julia の string の連結は「*」、繰り返しは「＾」である。true 
 "Everything that has a beginning has an ending."　/ Agent Smith(MATRIX) というわけで、python で FizzBuzz。
 python での strings の反復は「*」、連結は「+」。三項演算子は変態。
    ![FizzBuzzPython.png](FizzBuzzPython.png)
+   
+38.【番外編】JavaScript で Fizzbuzz・・・[FizzBuzzJS.html](FizzBuzzJS.html)
+
+ふるさとは遠きにありて思ふもの「小景異情」(室生犀星)  というわけで、javaScript で FizzBuzz。
+   ![FizzBuzzJS.html](FizzBuzzJS.html)
