@@ -17,7 +17,7 @@ int main(void)
 
         while (i++ < 100) {
                 sprintf(msg, "%s%s", i%3? "": "Fizz", i%5? "": "Buzz")?
-                                : sprintf(msg, "%d", i), printf("%s ", msg);
+                                0: sprintf(msg, "%d", i), printf("%s ", msg);
         }
         printf("\n");
 }
