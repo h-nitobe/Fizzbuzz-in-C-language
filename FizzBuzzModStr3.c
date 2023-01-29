@@ -15,9 +15,8 @@ int main(void)
         int     i = 0;
         char    msg[32];        // 2^64: 20Œ… 32‚ ‚ê‚Î[•ª‚Å‚µ‚å‚¤
 
-        while (i++ < 100) {
-                sprintf(msg, "%s%s", i%3? "": "Fizz", i%5? "": "Buzz")?
-                                0: sprintf(msg, "%d", i), printf("%s ", msg);
-        }
+        while (i++ < 100)
+                sprintf(msg, "%s%s", i%3? "": "Fizz", i%5? "": "Buzz")? 0:
+                sprintf(msg, "%d", i), printf("%s ", msg);
         printf("\n");
 }
