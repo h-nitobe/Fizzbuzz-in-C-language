@@ -330,5 +330,5 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
 
 Über den Bergen weit zu wandern / Sagen die Leute, wohnt das Glück.　"Über den Bergen"(Karl Busse) というわけで、Sipeed Longan Nano RISC-V GD32VF103CBT6 で FizzBuzz。SIPEED USB-JTAG/TTL RISC-V DEBUG を経由している。開発環境は Visual Studio Code。
    ![RONGAN01.png](RONGAN01.png)
-   ![RONGAN02.png](RONGAN02.png)
-   ![RONGAN03.png](RONGAN03.png)
+   ![RONGAN02.jpg](RONGAN02.jpg)
+   ![RONGAN03.jpg](RONGAN03.jpg)
