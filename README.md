@@ -325,3 +325,10 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
 
 ふるさとは遠きにありて思ふもの「小景異情」(室生犀星)  というわけで、javaScript で FizzBuzz。
    ![FizzBuzzJS.png](FizzBuzzJS.png)
+
+39. RONGAN NANO で FizzBuzz・・・[FizzBuzzRONGAN.c](FizzBuzzRONGAN.c)
+
+Über den Bergen weit zu wandern / Sagen die Leute, wohnt das Glück.　"Über den Bergen"(Karl Busse) というわけで、Sipeed Longan Nano RISC-V GD32VF103CBT6 で FizzBuzz。SIPEED USB-JTAG/TTL RISC-V DEBUG を経由している。開発環境は Visual Studio Code。
+   ![FizzBuzzRONGAN01.png](FizzBuzzRONGAN01.png)
+   ![FizzBuzzRONGAN02.png](FizzBuzzRONGAN02.png)
+   ![FizzBuzzRONGAN03.png](FizzBuzzRONGAN03.png)
