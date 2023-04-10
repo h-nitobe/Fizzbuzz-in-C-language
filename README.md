@@ -333,3 +333,8 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
    ![RONGAN01.png](RONGAN01.png)
    ![RONGAN02.jpg](RONGAN02.jpg)
    ![RONGAN03.jpg](RONGAN03.jpg)
+   
+40. テーブルをまわすFizzBuzz・・・[FizzBuzzTbl2.c](FizzBuzzTbl2.c)
+
+「まわるまわるよ時代はまわる」（時代 1975 中島みゆき）というわけでテーブルをまわすFizzBuzz
+   ![table2.png](table2.png)
