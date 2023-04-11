@@ -345,12 +345,12 @@ Alles Sichtbare haftet am Unsichtbaren – 2120 Traktat vom Licht / Fragmente II
 すべての見えるものは見えないものにさわっている - 2120 光についての論文 / 断片集II (ノヴァーリス 1771-1801)
 というわけで。WhiteSpase で FizzBuzz。
 FizzBuzz.ws
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 なに？見えない？そりゃそうだ。スペースとタブと改行だけで記述されている。これでどうだ。
 FizzBuzz.wsv
 ssstnnssssnsnssnssssttntsttntsstnssststntsttntssnsnstnstnsnnnssstnssstsssttsntnsssssttstsstntnssnsttnssststntsttntssnnsnnnsssnssstsssstsntnssssstttststntnssnsttnnsnnnsstnsssttttstsnsnstnsstnssntnnssnssstsssssntnssssstntssssnssssttsststntsstnttssnssststsntnssnnn
