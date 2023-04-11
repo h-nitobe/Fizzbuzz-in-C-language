@@ -338,3 +338,25 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
 
 「まわるまわるよ時代はまわる」（時代 1975 中島みゆき）というわけでテーブルをまわすFizzBuzz
    ![table2.png](table2.png)
+
+41. 【番外編】WhiteSpace で Fizzbuzz 
+
+Alles Sichtbare haftet am Unsichtbaren – 2120 Traktat vom Licht / Fragmente II (Novalis 1771-1801)
+すべての見えるものは見えないものにさわっている - 2120 光についての論文 / 断片集II (ノヴァーリス 1771-1801)
+というわけで。WhiteSpase で FizzBuzz。
+FizzBuzz.ws
+
+
+
+
+
+
+なに？見えない？そりゃそうだ。スペースとタブと改行だけで記述されている。これでどうだ。
+FizzBuzz.wsv
+ssstnnssssnsnssnssssttntsttntsstnssststntsttntssnsnstnstnsnnnssstnssstsssttsntnsssssttstsstntnssnsttnssststntsttntssnnsnnnsssnssstsssstsntnssssstttststntnssnsttnnsnnnsstnsssttttstsnsnstnsstnssntnnssnssstsssssntnssssstntssssnssssttsststntsstnttssnssststsntnssnnn
+
+それでも分からない？しょうがないなぁ。hex dump でどうよ？
+実はコーディングはWhiteSpaceアセンブラで記述してアセンブルして.wsファイルを生成している。
+アセンブラソースはこちら。[FizzBuzz.wss](FizzBuzz.wss)
+  ![whitespace.png](whitespace.png)
+
