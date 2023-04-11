@@ -1,0 +1,53 @@
+	push 1		# i = 1
+
+mark loop
+	dup
+	dup
+	push 3
+	mod
+	jzero fi	# jz Fizz
+	push 5
+	mod
+	jzero bu	# jz Buzz
+	dup
+	puti		# print i
+	jump next
+
+mark fi
+	push 70
+	putc		# print 'F'
+	push 105
+	putc		# print 'i'
+	call zz
+	push 5
+	mod
+	jzero bu	# jz Buzz
+	jump next
+
+mark bu
+	push 66
+	putc		# print 'B'
+	push 117
+	putc		# print 'u'
+	call zz
+	jump next
+
+mark zz
+	push 122
+	dup
+	putc		# print 'z'
+	putc		# print 'z'
+	ret
+
+mark next
+	push 32
+	putc		# print ' '
+	push 1
+	add			# i++
+	dup
+	push 101
+	sub			# i < 101
+	jneg loop
+	push 10
+	putc		# print 'LF'
+	end
