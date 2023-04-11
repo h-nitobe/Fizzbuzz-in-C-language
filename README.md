@@ -341,9 +341,9 @@ python での strings の反復は「*」、連結は「+」。三項演算子�
 
 41. 【番外編】WhiteSpace で Fizzbuzz 
 
-Alles Sichtbare haftet am Unsichtbaren – 2120 Traktat vom Licht / Fragmente II (Novalis 1771-1801)
-すべての見えるものは見えないものにさわっている - 2120 光についての論文 / 断片集II (ノヴァーリス 1771-1801)
-というわけで。WhiteSpase で FizzBuzz。
+Alles Sichtbare haftet am Unsichtbaren – 2120 Traktat vom Licht / Fragmente II (Novalis 1771-1801)<br>
+すべての見えるものは見えないものにさわっている - 2120 光についての論文 / 断片集II (ノヴァーリス 1771-1801)<br>
+というわけで。WhiteSpase で FizzBuzz。<br>
 FizzBuzz.ws
 <br>
 <br>
@@ -351,7 +351,7 @@ FizzBuzz.ws
 <br>
 <br>
 <br>
-なに？見えない？そりゃそうだ。スペースとタブと改行だけで記述されている。これでどうだ。
+なに？見えない？そりゃそうだ。スペースとタブと改行だけで記述されている。これでどうだ。<br>
 FizzBuzz.wsv
 ssstnnssssnsnssnssssttntsttntsstnssststntsttntssnsnstnstnsnnnssstnssstsssttsntnsssssttstsstntnssnsttnssststntsttntssnnsnnnsssnssstsssstsntnssssstttststntnssnsttnnsnnnsstnsssttttstsnsnstnsstnssntnnssnssstsssssntnssssstntssssnssssttsststntsstnttssnssststsntnssnnn
 
