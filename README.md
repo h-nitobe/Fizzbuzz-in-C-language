@@ -359,3 +359,17 @@ ssstnnssssnsnssnssssttntsttntsstnssststntsttntssnsnstnstnsnnnssstnssstsssttsntns
 実はコーディングはWhiteSpaceアセンブラで記述してアセンブルして.wsファイルを生成している。
 アセンブラソースはこちら。[FizzBuzz.wss](FizzBuzz.wss)
   ![whitespace.png](whitespace.png)
+  
+42.【番外編】Sell で FizzBuzz ・・・・・[FizzBuzz.sh](FizzBuzz.sh)
+
+Mon oreille est un coquillage<br>
+Qui aime le bruit de la mer<br>
+( Jean Cocteau, Cannes V )<br>
+私の耳は　貝の殻<br>
+海の響を懐かしむ<br>
+( 堀口大學 訳 )<br>
+というわけでLinux Sell コマンド（bash）でFizzBuzz。<br>
+今回は、seq sed tr echo で実装してみた。<br>
+
+seq 100 | sed '0~3 s/.*/Fizz/; 0~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
+![shell.png](shell.png)
