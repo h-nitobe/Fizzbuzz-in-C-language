@@ -371,5 +371,5 @@ Qui aime le bruit de la mer<br>
 というわけでLinux Sell コマンド（bash）でFizzBuzz。<br>
 今回は、seq sed tr echo で実装してみた。<br>
 
-seq 100 | sed '0~3 s/.*/Fizz/; 0~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
+seq 100 | sed '0\~3 s/.*/Fizz/; 0\~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
 ![shell.png](shell.png)
