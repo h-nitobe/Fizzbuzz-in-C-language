@@ -373,3 +373,12 @@ Qui aime le bruit de la mer<br>
 
 seq 100 | sed '0\~3 s/.*/Fizz/; 0\~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
 ![shell.png](shell.png)
+
+43.【番外編】M0sense で FizzBuzz・・・・[FizzBuzzM0sense.c](FizzBuzzM0sense.c)
+
+議論するだけなら議員は大勢いる。実行が問題になるとだれもいなくなる。（ジャン・ド・ラ・フォンテーヌ 1621～1695）
+というわけで M0sense で FizzBuzz。IDE 未対応。linux CUI でビルドする。
+[sipeed M0sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html)
+
+![M0sese1.jpg](M0sese1.jpg)
+![M0sese2.jpg](M0sese2.jpg)
