@@ -380,5 +380,5 @@ seq 100 | sed '0\~3 s/.*/Fizz/; 0\~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
 というわけで M0sense で FizzBuzz。IDE 未対応。linux CUI でビルドする。
 [sipeed M0sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html)
 
-![M0sese1.jpg](M0sese1.jpg)
-![M0sese2.jpg](M0sese2.jpg)
+![M0sense1.jpg](M0sense1.jpg)
+![M0sense2.jpg](M0sense2.jpg)
