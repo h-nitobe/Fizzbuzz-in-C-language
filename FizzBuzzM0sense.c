@@ -36,7 +36,6 @@ int main(void)
     lcd_clear(0x0000);
 	
 	for (int i = 1; i <= 26; i++) {
-		itoa(i, buf2, 10);
 		if (i % 3 == 0) strcat(buf, "Fizz");
 		if (i % 5 == 0) strcat(buf, "Buzz");
 		if (i % 3 && i % 5) {
