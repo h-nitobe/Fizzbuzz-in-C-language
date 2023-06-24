@@ -419,5 +419,6 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![kome.png](kome.png)
 ![Microchip_Studio.png](Microchip_Studio.png)
 ![Zadig.png](Zadig.png)
+![ATTiny10.png](ATTiny10.png)
 ![TeraTerm0624.png](TeraTerm0624.png)
 
