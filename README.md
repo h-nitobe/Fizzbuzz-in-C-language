@@ -382,3 +382,41 @@ seq 100 | sed '0\~3 s/.*/Fizz/; 0\~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
 
 ![M0sense1.jpg](M0sense1.jpg)
 ![M0sense2.jpg](M0sense2.jpg)
+
+43.【番外編】M0sense で FizzBuzz・・・・[FizzBuzzM0sense.c](FizzBuzzM0sense.c)
+
+議論するだけなら議員は大勢いる。実行が問題になるとだれもいなくなる。（ジャン・ド・ラ・フォンテーヌ 1621～1695）
+というわけで M0sense で FizzBuzz。IDE 未対応。linux CUI でビルドする。
+[sipeed M0sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html)
+
+![M0sense1.jpg](M0sense1.jpg)
+![M0sense2.jpg](M0sense2.jpg)
+
+44.【番外編】ATTiny10でFizzBuzz・・・・[FizzBuzzATTiny10.c](FizzBuzzATTiny10.c)
+
+【FizzBuzz】「途に倒れて だれかの名を呼び続けたことが ありますか」（わかれうた／中島みゆき／1977-9-10）
+というわけで、往年の「米粒マイコン」ATTiny10でFizzBuzz。10年前のマイコンだ。ネット上の情報は殆ど当時のものなので使えない。
+１．Microchip Studio 7 (Version: 7.0.2594 - )で ATTiny10 は「GCC C Executable Project」でビルド可能。
+２．書き込みは avrdude 。但しライタ（KKHMF USB AVRプログラマ USBaspライタ 5152）のファームウエアは古いので更新が必要。
+３．Windows Driver 強制変更の Zadig は必須。
+４．このマイコンには UART がない。ソフトウエアで 800us タイマを使って 1200ボー送信を行う。
+５．RS232CインターフェースはTTLレベル直結。お？動くんだ！レベル変換しなくても動く！
+
+「米粒マイコン」ざっくりスペック
+https://avr.jp/user/DS/PDF/tiny10.pdf
+・コア： tinyAVR(8bit)
+・電源電圧： 1.8 ～ 5.5V
+・クロック： 12MHz(8MHz@2.7V、8MHz オシレータ内蔵)
+・プログラムメモリ(NVM)： 1024 bytes(512 words)
+・SRAM： 32 bytes
+・汎用レジスタ： 16個
+・GPIO： 4pin
+・ADC： 8bit 4ch
+・タイマ： 1ch
+・WDT： 16ms ～ 8s 周期
+・動作電流： 200μA(活動時 1MHz, 1.8V)、0.1μA以下(パワーダウン時 1.8V)
+
+![kome.png](kome.png)
+![Microchip_Studio.png](Microchip_Studio.png)
+![Zadig.png](Zadig.png)
+![avrdude.log](avrdude.log)
