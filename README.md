@@ -419,4 +419,4 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![kome.png](kome.png)
 ![Microchip_Studio.png](Microchip_Studio.png)
 ![Zadig.png](Zadig.png)
-![avrdude.log](avrdude.log)
+[avrdude.log](avrdude.log)
