@@ -397,7 +397,7 @@ seq 100 | sed '0\~3 s/.*/Fizz/; 0\~5 s/[0-9]*$/Buzz/' | tr '\n' ' ' ; echo<br>
 【FizzBuzz】「途に倒れて だれかの名を呼び続けたことが ありますか」（わかれうた／中島みゆき／1977-9-10）
 というわけで、往年の「米粒マイコン」ATTiny10でFizzBuzz。10年前のマイコンだ。ネット上の情報は殆ど当時のものなので使えない。
 １．Microchip Studio 7 (Version: 7.0.2594 - )で ATTiny10 は「GCC C Executable Project」でビルド可能。
-２．書き込みは avrdude 。但しライタ（KKHMF USB AVRプログラマ USBaspライタ 5152）のファームウエアは古いので更新が必要。
+２．書き込みは avrdude 。但しライタ（KKHMF USB AVRプログラマ USBaspライタ 5152）のファームウエアは古いので更新が必要。[avrdude.log](avrdude.log)
 ３．Windows Driver 強制変更の Zadig は必須。
 ４．このマイコンには UART がない。ソフトウエアで 800us タイマを使って 1200ボー送信を行う。
 ５．RS232CインターフェースはTTLレベル直結。お？動くんだ！レベル変換しなくても動く！
@@ -419,4 +419,5 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![kome.png](kome.png)
 ![Microchip_Studio.png](Microchip_Studio.png)
 ![Zadig.png](Zadig.png)
-[avrdude.log](avrdude.log)
+![TeraTerm0624.png](TeraTerm0624.png)
+
