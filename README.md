@@ -447,6 +447,8 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 
 [SEGGER J-Links](https://www.segger.com/downloads/jlink/)
 
+[thonny v4.1.1](https://github.com/thonny/thonny/releases/tag/v4.1.1)
+
 ![RA4M1-CLICKER.jpg](RA4M1-CLICKER.jpg)
 ![J-Flash.png](J-Flash.png)
 ![Thonny.png](Thonny.png)
