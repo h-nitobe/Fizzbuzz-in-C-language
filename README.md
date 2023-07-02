@@ -422,3 +422,30 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![ATTiny10.png](ATTiny10.png)
 ![TeraTerm0624.png](TeraTerm0624.png)
 
+45.【番外編】RA4M1-CLICKER でFizzBuzz・・・・[FizzBuzz.py](FizzBuzz.py)
+
+「世の中はいつも 変わっているから頑固者だけが 悲しい思いをする」（世情／中島みゆき／1978年4月10日）というわけで、RA4M1-CLICKER でFizzBuzz。Renesas の比較的新しい RA マイコンである。ベアメタルで開発、HAL(Hardware Abstraction Layer)で開発、MicroPython で開発・・・いくつかのアプローチがあるが、ベアメタルは面倒、HAL9000 は好きだが、HALは冗長なので嫌い。今回は流行りの MicroPython 開発に挑戦してみよう。
+
+１．MicroPython Firmware を J-Flash Lite でマイコンに書き込む
+２．今回はシリアルIFを FT232RL でまじめにドライブする
+３．IDE「THONNY」でコーデイング／ダウンロード／実行
+
+「RA4M1-CLICKER」ざっくりスペック 
+・32-bit ARM® Cortex®-M4
+　R7FA4M1AB3CFM MCU operating at up to 48MHz, 256KB of Flash memory, and 32KB of SRAM
+・USB Type-C connector
+・Two LEDs, two pushbuttons, and a reset button
+・J-Link OB and headers for interfacing with external electronics
+・mikroBUS socket for adding Click board
+・Small, affordable, yet powerful starter development kit
+・Mounting holes simplify integration
+・Compact design with clear and descriptive silkscreen markings
+
+[RA4M1-CLICKER](https://www.mikroe.com/ra4m1-clicker)
+[MicroPython Firmware](https://micropython.org/download/EK-RA4M1/)
+[SEGGER J-Links](https://www.segger.com/downloads/jlink/)
+
+![RA4M1-CLICKER.jpg](RA4M1-CLICKER.jpg)
+![J-Flash.png](J-Flash.png)
+![Thonny.png](Thonny.png)
+
