@@ -442,7 +442,9 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 + Compact design with clear and descriptive silkscreen markings
 
 [RA4M1-CLICKER](https://www.mikroe.com/ra4m1-clicker)
+
 [MicroPython Firmware](https://micropython.org/download/EK-RA4M1/)
+
 [SEGGER J-Links](https://www.segger.com/downloads/jlink/)
 
 ![RA4M1-CLICKER.jpg](RA4M1-CLICKER.jpg)
