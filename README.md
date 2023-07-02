@@ -431,15 +431,15 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ３．IDE「THONNY」でコーデイング／ダウンロード／実行
 
 「RA4M1-CLICKER」ざっくりスペック 
-・32-bit ARM® Cortex®-M4
++ 32-bit ARM® Cortex®-M4
 　R7FA4M1AB3CFM MCU operating at up to 48MHz, 256KB of Flash memory, and 32KB of SRAM
-・USB Type-C connector
-・Two LEDs, two pushbuttons, and a reset button
-・J-Link OB and headers for interfacing with external electronics
-・mikroBUS socket for adding Click board
-・Small, affordable, yet powerful starter development kit
-・Mounting holes simplify integration
-・Compact design with clear and descriptive silkscreen markings
++ USB Type-C connector
++ Two LEDs, two pushbuttons, and a reset button
++ J-Link OB and headers for interfacing with external electronics
++ mikroBUS socket for adding Click board
++ Small, affordable, yet powerful starter development kit
++ Mounting holes simplify integration
++ Compact design with clear and descriptive silkscreen markings
 
 [RA4M1-CLICKER](https://www.mikroe.com/ra4m1-clicker)
 [MicroPython Firmware](https://micropython.org/download/EK-RA4M1/)
