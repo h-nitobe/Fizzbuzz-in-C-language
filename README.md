@@ -426,9 +426,9 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 
 「世の中はいつも 変わっているから頑固者だけが 悲しい思いをする」（世情／中島みゆき／1978年4月10日）というわけで、RA4M1-CLICKER でFizzBuzz。Renesas の比較的新しい RA マイコンである。ベアメタルで開発、HAL(Hardware Abstraction Layer)で開発、MicroPython で開発・・・いくつかのアプローチがあるが、ベアメタルは面倒、HAL9000 は好きだが、HALは冗長なので嫌い。今回は流行りの MicroPython 開発に挑戦してみよう。
 
-１．MicroPython Firmware を J-Flash Lite でマイコンに書き込む
-２．今回はシリアルIFを FT232RL でまじめにドライブする
-３．IDE「THONNY」でコーデイング／ダウンロード／実行
+ 1. MicroPython Firmware を J-Flash Lite でマイコンに書き込む
+ 2. 今回はシリアルIFを FT232RL でまじめにドライブする
+ 3. IDE「THONNY」でコーデイング／ダウンロード／実行
 
 「RA4M1-CLICKER」ざっくりスペック 
 + 32-bit ARM® Cortex®-M4
