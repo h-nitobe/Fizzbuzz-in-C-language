@@ -462,8 +462,9 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
  3. コーデイング／ダウンロード／実行　朝飯前だ
 
 「Arduino UNO R4 Minima」ざっくりスペック
-+マイコン：Renesas RA4M1（Arm Cortex-M4）
-+USB：USB-C（プログラミングポート / HID）
+
++ マイコン：Renesas RA4M1（Arm Cortex-M4）
++ USB：USB-C（プログラミングポート / HID）
 + ピン：
   + 14 x デジタルI/O
   + 6 x アナログ入力
