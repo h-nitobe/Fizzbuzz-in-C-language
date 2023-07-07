@@ -453,7 +453,7 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![J-Flash.png](J-Flash.png)
 ![Thonny.png](Thonny.png)
 
-46.【番外編】Arduino UNO R4 MinimaでFizzBuzz・・・・[FizzBuzzUnoR4.ino](FizzBuzzUnoR4.ino)
+46.【番外編】Arduino UNO R4 MinimaでFizzBuzz・・・・[FizzBuzz_UnoR4.ino](FizzBuzz_UnoR4.ino)
 
 「なぜ　めぐり逢うのかを　私たちは　なにも知らない」（糸／中島みゆき／1998年2月4日）というわけで、Arduino UNO R4 Minima でFizzBuzz。実は前項の RA4M1 搭載である。2022年6月14日 Renesas は Arudino に1000万米ドルを出資、一年後の今年満を持しての発売となった。 
 
