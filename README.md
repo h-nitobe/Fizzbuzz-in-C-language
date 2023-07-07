@@ -464,24 +464,24 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 「Arduino UNO R4 Minima」ざっくりスペック
 +マイコン：Renesas RA4M1（Arm Cortex-M4）
 +USB：USB-C（プログラミングポート / HID）
-+ピン：
-  +14 x デジタルI/O
-  +6 x アナログ入力
-  +1 x DAC
-  +6 x PWM
-  +Misc（SWDコネクタ）
-+通信：
-  +1 x UART
-  +1 x I2C
-  +1 x SPI
-  +1 x CAN（要外部トランシーバー）
-+電源：
-  +動作電圧：5 V
-  +入力電圧（VIN）：6～24 V
-  +DC電流（各I/Oピン毎）：8 mA
-+クロック：48 MHz
-+メモリ（RA4M1）：256 KBフラッシュ、32 KB RAM
-+寸法：68.85 mm x 53.34 mm（幅 x 長さ）
++ ピン：
+  + 14 x デジタルI/O
+  + 6 x アナログ入力
+  + 1 x DAC
+  + 6 x PWM
+  + Misc（SWDコネクタ）
++ 通信：
+  + 1 x UART
+  + 1 x I2C
+  + 1 x SPI
+  + 1 x CAN（要外部トランシーバー）
++ 電源：
+  + 動作電圧：5 V
+  + 入力電圧（VIN）：6～24 V
+  + DC電流（各I/Oピン毎）：8 mA
++ クロック：48 MHz
++ メモリ（RA4M1）：256 KBフラッシュ、32 KB RAM
++ 寸法：68.85 mm x 53.34 mm（幅 x 長さ）
 
 [Arduino UNO R4 Minima](https://store.arduino.cc/products/uno-r4-minima)
 
