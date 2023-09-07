@@ -16,8 +16,8 @@
 
 int main(void)
 {
-	int					i = 0;
-	unsigned short		r = 1;	// 0b0000000000000001
+	int		i = 0;
+	int		r = 1;	// 0b0000000000000001
 	
 	while (100 - i++) {
 		if (r & FIZZ)   printf("Fizz");
