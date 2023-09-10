@@ -30,8 +30,8 @@ FizzBuzz をC言語で実装してみよう。
    1. 指折り数えてみる（右シフトだけどね）・[FizzBuzzFin.c](FizzBuzzFin.c)
 1. 排他的論理和で判定・・・・・・・・・・・・[FizzBuzzExor.c](FizzBuzzExor.c)
 1. 論理積で判定
-   1.下駄を履かせて２の冪乗でラウンドアップ・・[FizzBuzzAnd.c](FizzBuzzAnd.c)
-   1.１を左ローテートして４種のマスクと＆・・・[FizzBuzzRot.c](FizzBuzzRot.c)
+   1. 下駄を履かせて２の冪乗でラウンドアップ・・[FizzBuzzAnd.c](FizzBuzzAnd.c)
+   1. １を左ローテートして４種のマスクと＆・・・[FizzBuzzRot.c](FizzBuzzRot.c)
 1. 循環配列で判定・・・・・・・・・・・・・・[FizzBuzzArr.c](FizzBuzzArr.c)
    1. ループの中で判断をしない新井田教授版・・[FizzBuzzNIIDA.c](FizzBuzzNIIDA.c)
 1. i%15 が循環することに気づいた？
