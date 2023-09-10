@@ -1,6 +1,6 @@
 ///
 ///	@file		FizzBuzzRot.c
-///	@brief		ルーレットでFizzBuzz
+///	@brief		左ローテートでFizzBuzz
 ///	@author		新渡戸広明
 ///	@date		2023/09/05
 ///	@details	r : 0000000000000001
