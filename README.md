@@ -9,7 +9,7 @@ FizzBuzz をC言語で実装してみよう。
    1. へそ曲がり版・・・・・・・・・・・・・[FizzBuzzMod24.c](FizzBuzzMod24.c)
    1. 再帰呼び出し版・・・・・・・・・・・・[FizzBuzzModRec.c](FizzBuzzModRec.c)
    1. フラグを利用・・・・・・・・・・・・・[FizzBuzzModFlag.c](FizzBuzzModFlag.c)
-   1. printf() の戻り値で判定・・・・・・・・[FizzBuzzModRet.c](FizzBuzzModRet.c)
+   1. printf() の戻り値で判定・・・・・・・・・[FizzBuzzModRet.c](FizzBuzzModRet.c)
    1. 三項演算子でがんばってみる・・・・・・[FizzBuzzModTri.c](FizzBuzzModTri.c)
    1. 純粋三項演算子版　・・・・・・・・・・[FizzBuzzModTriPure.c](FizzBuzzModTriPure.c)
    1. 純粋三項演算子版２・・・・・・・・・・[FizzBuzzModTriPure2.c](FizzBuzzModTriPure2.c)
@@ -22,8 +22,8 @@ FizzBuzz をC言語で実装してみよう。
    1. 剰余を自前で実装する２（ネタだ）・・・[FizzBuzzModOwn2.c](FizzBuzzModOwn2.c)
    1. 短絡評価版（使っちゃダメ）・・・・・・[FizzBuzzModSce.c](FizzBuzzModSce.c)
 1. カウンタで判定
-   1. カウンタで判定その１・・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
-   1. カウンタで判定その２・・・・・・・・・・[FizzBuzzCnt2.c](FizzBuzzCnt2.c)
+   1. カウンタで判定その１・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
+   1. カウンタで判定その２・・・・・・・・・[FizzBuzzCnt2.c](FizzBuzzCnt2.c)
 1. オフセットで判定
    1. 到達値・・・・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
    1. 目標値・・・・・・・・・・・・・・・・[FizzBuzzOfs2.c](FizzBuzzOfs2.c)
