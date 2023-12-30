@@ -22,6 +22,7 @@ FizzBuzz をC言語で実装してみよう。
    1. 剰余を自前で実装する２（ネタだ）・・・[FizzBuzzModOwn2.c](FizzBuzzModOwn2.c)
    1. 短絡評価版（使っちゃダメ）・・・・・・[FizzBuzzModSce.c](FizzBuzzModSce.c)
 1. カウンタで判定・・・・・・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
+   1.カウンタで判定その２・・・・・・・・・・[FizzBuzzCnt2.c](FizzBuzzCnt2.c)
 1. オフセットで判定
    1. 到達値・・・・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
    1. 目標値・・・・・・・・・・・・・・・・[FizzBuzzOfs2.c](FizzBuzzOfs2.c)
@@ -39,6 +40,7 @@ FizzBuzz をC言語で実装してみよう。
    1. Switch 文判定・・・・・・・・・・・・・[FizzBuzzSw.c](FizzBuzzSw.c)
    1. テーブル参照・・・・・・・・・・・・・[FizzBuzzTbl.c](FizzBuzzTbl.c)
    1. テーブル参照２・・・・・・・・・・・・[FizzBuzzTbl2.c](FizzBuzzTbl2.c)
+   1. テーブル参照３・・・・・・・・・・・・[FizzBuzzTbl3.c](FizzBuzzTbl3.c)
    1. 関数ポインタ配列参照・・・・・・・・・[FizzBuzzFnc.c](FizzBuzzFnc.c)
    1. 最大公約数を利用・・・・・・・・・・・[FizzBuzzGcd.c](FizzBuzzGcd.c)
 1. 十進数操作（まどろっこい）・・・・・・・・[FizzBuzzDec.c](FizzBuzzDec.c)
