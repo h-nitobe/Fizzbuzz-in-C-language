@@ -17,6 +17,7 @@ FizzBuzz をC言語で実装してみよう。
    1. 文字列を玩ぶ・・・・・・・・・・・・・[FizzBuzzModStr.c](FizzBuzzModStr.c)
    1. 文字列を玩ぶ２・・・・・・・・・・・・[FizzBuzzModStr2.c](FizzBuzzModStr2.c)
    1. 文字列を玩ぶ３・・・・・・・・・・・・[FizzBuzzModStr3.c](FizzBuzzModStr3.c)
+   1. 文字列を玩ぶ４・・・・・・・・・・・・[FizzBuzzModStr4.c](FizzBuzzModStr4.c)
    1. 標準ライブラリの div を利用する・・・・[FizzBuzzModDiv.c](FizzBuzzModDiv.c)
    1. 剰余を自前で実装する（無駄）・・・・・[FizzBuzzModOwn.c](FizzBuzzModOwn.c)
    1. 剰余を自前で実装する２（ネタだ）・・・[FizzBuzzModOwn2.c](FizzBuzzModOwn2.c)
