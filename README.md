@@ -22,7 +22,7 @@ FizzBuzz をC言語で実装してみよう。
    1. 剰余を自前で実装する２（ネタだ）・・・[FizzBuzzModOwn2.c](FizzBuzzModOwn2.c)
    1. 短絡評価版（使っちゃダメ）・・・・・・[FizzBuzzModSce.c](FizzBuzzModSce.c)
 1. カウンタで判定・・・・・・・・・・・・・・[FizzBuzzCnt.c](FizzBuzzCnt.c)
-   1.カウンタで判定その２・・・・・・・・・・[FizzBuzzCnt2.c](FizzBuzzCnt2.c)
+   1. カウンタで判定その２・・・・・・・・・・[FizzBuzzCnt2.c](FizzBuzzCnt2.c)
 1. オフセットで判定
    1. 到達値・・・・・・・・・・・・・・・・[FizzBuzzOfs.c](FizzBuzzOfs.c)
    1. 目標値・・・・・・・・・・・・・・・・[FizzBuzzOfs2.c](FizzBuzzOfs2.c)
