@@ -7,6 +7,7 @@ FizzBuzz をC言語で実装してみよう。
 1. 剰余で判定
    1. 割合素直版・・・・・・・・・・・・・・[FizzBuzzMod.c](FizzBuzzMod.c)
    1. へそ曲がり版・・・・・・・・・・・・・[FizzBuzzMod24.c](FizzBuzzMod24.c)
+   1. 実行部ワンライナ版・・・・・・・・・・[FizzBuzzModOne.c](FizzBuzzModOne.c)
    1. 再帰呼び出し版・・・・・・・・・・・・[FizzBuzzModRec.c](FizzBuzzModRec.c)
    1. フラグを利用・・・・・・・・・・・・・[FizzBuzzModFlag.c](FizzBuzzModFlag.c)
    1. printf() の戻り値で判定・・・・・・・・・[FizzBuzzModRet.c](FizzBuzzModRet.c)
