@@ -33,6 +33,6 @@ void main(void)			// ‚±‚êˆá”½Bint main(void) ‚© int main(int argc, char *argv[]
 //			i % 3? "": "Fizz",					// printf •Ï”‚P
 //			i % 5? "": "Buzz",					// printf •Ï”‚Q
 //			i % 3 && i % 5? itoa(i,b,10): ""	// printf •Ï”‚R
-//		)
-//	);
+//		)										// printf I‚í‚è
+//	);											// ŒJ‚è•Ô‚µÀ‘Ì‚È‚µ ){;} 
 }
