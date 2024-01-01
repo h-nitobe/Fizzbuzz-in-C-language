@@ -2,7 +2,7 @@
 *       @file           FizzBuzzModOne.c
 *       @brief          実行部ワンライナー
 *       @author         新渡戸広明
-*       @date           2023/12/31
+*       @date           2024/01/01
 *       @details        
 *                       実行部ワンライナーで頑張る
 *                       初学者がやりがちな圧縮記法を真似してみた
