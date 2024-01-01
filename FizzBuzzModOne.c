@@ -25,11 +25,14 @@ void main(void)			// ‚±‚êˆá”½Bint main(void) ‚© int main(int argc, char *argv[]
 	
 	for(i=0;100-i++;printf("%s%s%s ",i%3?"":"Fizz",i%5?"":"Buzz",i%3&&i%5?itoa(i,b,10):""));
 
-//	for (i = 0; 100 - i++;
-//		printf("%s%s%s ",
-//			i % 3? "": "Fizz",
-//			i % 5? "": "Buzz",
-//			i % 3 && i % 5? itoa(i,b,10): ""
+//	for (
+//		i = 0;									// for ‰Šú‰»
+//		100 - i++;								// for Œp‘±ğŒ®
+//		printf(									// for XV
+//			"%s%s%s ",							// printf ‘®•¶š—ñ
+//			i % 3? "": "Fizz",					// printf •Ï”‚P
+//			i % 5? "": "Buzz",					// printf •Ï”‚Q
+//			i % 3 && i % 5? itoa(i,b,10): ""	// printf •Ï”‚R
 //		)
 //	);
 }
