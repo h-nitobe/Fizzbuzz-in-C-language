@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
 	max = atoi(argv[1]);	// ‘æ‚Qˆø”‚ğ”’l‚ÅŠi”[@‘æ‚Rˆø”ˆÈ~‚Í–³‹‚µ‚Ü‚·
 	
 	for (i = 1; i <= max; i++) {
-		fizz = !((int)(3 * sin(M_PI * i / 3)));
-		buzz = !((int)(5 * sin(M_PI * i / 5)));
-	
+		fizz = !(int)(2 * (sin(M_PI / 3 * i)));
+		buzz = !(int)(2 * (sin(M_PI / 5 * i)));
+
 		if (fizz) {
 			printf("Fizz");
 		}
@@ -42,6 +42,5 @@ int main(int argc, char *argv[])
 		printf(" ");
 	}
 	printf("\n");
-	
 	return 0;
 }
