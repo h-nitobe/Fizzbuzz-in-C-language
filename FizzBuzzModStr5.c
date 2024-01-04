@@ -21,7 +21,6 @@ int main(void)
 		if (!(i % 3)) {
 			bs(len);
 			printf("Fizz");
-			printf(":%d", len);
 			len = 0;
 		}
 		if (!(i % 5)) {
