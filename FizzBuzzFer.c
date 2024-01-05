@@ -7,6 +7,9 @@
 *                       フェルマーの小定理　Wiki
 *                       https://ja.wikipedia.org/wiki/フェルマーの小定理
 *                       a^(p-1) ≡ 1 (mod p)
+*
+*                       i%3   : 120120120120...
+*                       i*i%3 : 110110110110...
 */
 
 #include	<stdio.h>
