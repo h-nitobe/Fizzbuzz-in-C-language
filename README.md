@@ -493,6 +493,7 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![FizzBuzzUnoR4_2.png](FizzBuzzUnoR4_2.png)
 
 47. 【番外編】Python で FizzBuzz ２・・・[FizzBuzzPy.py](FizzBuzzPy.py)
+
 Beautiful is better than ugly.（The Zen of Python, by Tim Peters）
 python を起動して import this と入力すると出てきます。
 というわけで変態 python で FizzBuzz。
@@ -506,6 +507,7 @@ print()
 というわけで、変態 python 大好き。
 
 48. 【番外編】Python で FizzBuzz ３・・・[FizzBuzzPy2.py](FizzBuzzPy2.py)
+
 『目は目を見ることができない。指は指を指すことができない。誰でも自分のことは案外わからないものだ。』（Hans Christian Andersen 1805-1875）
 というわけで前回の python ソースをもう一歩進めてみた。ワンライナーになったぞ！
 print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1,101)]))
