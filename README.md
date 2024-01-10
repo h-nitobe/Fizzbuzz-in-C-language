@@ -491,3 +491,23 @@ https://avr.jp/user/DS/PDF/tiny10.pdf
 ![FizzBuzzUnoR4.png](FizzBuzzUnoR4.png)
 ![FizzBuzzUnoR4_1.png](FizzBuzzUnoR4_1.png)
 ![FizzBuzzUnoR4_2.png](FizzBuzzUnoR4_2.png)
+
+47. 【番外編】Python で FizzBuzz ２・・・[FizzBuzzPy.py](FizzBuzzPy.py)
+Beautiful is better than ugly.（The Zen of Python, by Tim Peters）
+python を起動して import this と入力すると出てきます。
+というわけで変態 python で FizzBuzz。
+変態０．python の三項演算子は変態であることは既に指摘済み。
+for i in range(1, 101):
+    print('FizzBuzz'[i%3 and 4:i%5 and 4 or 8] or i, end=' ') 
+print()
+変態１．'FizzBuzz'をリストとして扱い[x:y]で範囲を抽出する。これをスライスと言います。
+変態２．論理演算子の挙動が変態。C言語では真／偽（1/0）のみを返すが python は論理演算に応じて左辺／右辺を投げてくる。
+変態３．printの最終文字が指定できる。デフォルトは'\n'。end=' 'で改行をスペースにすり替えられる。
+というわけで、変態 python 大好き。
+
+48. 【番外編】Python で FizzBuzz ３・・・[FizzBuzzPy2.py](FizzBuzzPy2.py)
+『目は目を見ることができない。指は指を指すことができない。誰でも自分のことは案外わからないものだ。』（Hans Christian Andersen 1805-1875）
+というわけで前回の python ソースをもう一歩進めてみた。ワンライナーになったぞ！
+print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1,101)]))
+変態４．リスト内包表記
+こんなソースコードのメンテナンスはごめんだ。
