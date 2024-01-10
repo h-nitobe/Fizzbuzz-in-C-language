@@ -504,8 +504,11 @@ for i in range(1, 101):
 print()
 
 変態１．'FizzBuzz'をリストとして扱い[x:y]で範囲を抽出する。これをスライスと言います。
+
 変態２．論理演算子の挙動が変態。C言語では真／偽（1/0）のみを返すが python は論理演算に応じて左辺／右辺を投げてくる。
+
 変態３．printの最終文字が指定できる。デフォルトは'\n'。end=' 'で改行をスペースにすり替えられる。
+
 というわけで、変態 python 大好き。
 
   ![FizzBuzzPy.png](FizzBuzzPy.png)
@@ -518,6 +521,7 @@ print()
 print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1,101)]))
 
 変態４．リスト内包表記
+
 こんなソースコードのメンテナンスはごめんだ。
 
   ![FizzBuzzPy2.png](FizzBuzzPy2.png)
