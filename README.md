@@ -506,6 +506,8 @@ print()
 変態３．printの最終文字が指定できる。デフォルトは'\n'。end=' 'で改行をスペースにすり替えられる。
 というわけで、変態 python 大好き。
 
+  ![FizzBuzzPy.png](FizzBuzzPy.png)
+
 48. 【番外編】Python で FizzBuzz ３・・・[FizzBuzzPy2.py](FizzBuzzPy2.py)
 
 『目は目を見ることができない。指は指を指すことができない。誰でも自分のことは案外わからないものだ。』（Hans Christian Andersen 1805-1875）
@@ -513,3 +515,5 @@ print()
 print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1,101)]))
 変態４．リスト内包表記
 こんなソースコードのメンテナンスはごめんだ。
+
+  ![FizzBuzzPy2.png](FizzBuzzPy2.png)
