@@ -526,3 +526,38 @@ print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1
 こんなソースコードのメンテナンスはごめんだ。
 
   ![FizzBuzzPy2.png](FizzBuzzPy2.png)
+
+49. 【番外編】Arduino UNO R4 WiFi で FizzBuzz・・・[FizzBuzzUNOR4WiFi.ino](UNOR4WiFi.ino)
+
+『知らない言葉を覚えるたびに 僕らは大人に近くなる けれど最後まで覚えられない 言葉もきっとある 何かの足しにもなれずに生きて 何にもなれずに消えてゆく 僕がいる』 （「命の別名」中島みゆき 	1998）
+というわけで、Arduino Uno R4 WiFi で FizzBuzz。以前紹介した Arduino Uno R4 minima に 12x8LEDマトリックスと通信を強化したバージョンである。開発環境は ArduinoIDE ver.2.2.1 でさくっとね。
+
+Arduino Uno R4 WiFi ざっくりSpec
+マイコン：　Renesas RA4M1（Arm Cortex-M4）
+Wi-Fi・Bluetooth用マイコン：　Espressif ESP32-S3（Cadence Xtensa LX7）
+USB：USB-C（プログラミングポート / HID）
+ピン：
+　・14 x デジタルI/O
+　・6 x アナログ入力（14ビット）
+　・1 x DAC（最高12ビット）
+　・6 x PWM
+通信：
+　・1 x UART
+　・1 x I2C
+　・1 x SPI
+　・1 x CAN（要外部トランシーバー）
+　・ESP32-S3
+　　・Wi-Fi：802.11 b/g/n対応、最高150 Mbps、2.4 GHz帯使用
+　　・Bluetooth：Bluetooth 5
+　　・USB：USB-C（RA4M1側と共用：アナログスイッチ切替）
+　　・1 x ESPヘッダー
+電源：
+　・動作電圧：5 V
+　・入力電圧（VIN）：6～24 V
+　・DC電流（各I/Oピン毎、最大値）：8 mA
+クロック（RA4M1）：48 MHz
+メモリ（RA4M1）：256 KBフラッシュ、32 KB RAM
+寸法：68.85 mm x 53.34 mm（幅 x 長さ）
+
+  ![FizzBuzzUNOR4WiFi.png](FizzBuzzUNOR4WiFi.png)
+  ![FizzBuzzUNOR4WiFi.mp4](FizzBuzzUNOR4WiFi.mp4)
