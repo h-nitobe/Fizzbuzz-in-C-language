@@ -560,5 +560,5 @@ USB：USB-C（プログラミングポート / HID）
 寸法：68.85 mm x 53.34 mm（幅 x 長さ）
 
   ![FizzBuzzUNOR4WiFi.png](FizzBuzzUNOR4WiFi.png)
-  ![FizzBuzzUNOR4WiFi.mp4](FizzBuzzUNOR4WiFi.mp4)
+  ![FizzBuzzUNOR4WiFi.gif](FizzBuzzUNOR4WiFi.gif)
 
