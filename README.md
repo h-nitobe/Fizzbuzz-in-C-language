@@ -527,7 +527,7 @@ print(' '.join(['FizzBuzz'[i%3 and 4: i%5 and 4 or 8] or str(i) for i in range(1
 
   ![FizzBuzzPy2.png](FizzBuzzPy2.png)
 
-49. 【番外編】Arduino UNO R4 WiFi で FizzBuzz・・・[FizzBuzzUNOR4WiFi.ino](UNOR4WiFi.ino)
+49. 【番外編】Arduino UNO R4 WiFi で FizzBuzz・・・[FizzBuzzUNOR4WiFi.ino](FizzBuzzUNOR4WiFi.ino)
 
 『知らない言葉を覚えるたびに 僕らは大人に近くなる けれど最後まで覚えられない 言葉もきっとある 何かの足しにもなれずに生きて 何にもなれずに消えてゆく 僕がいる』 （「命の別名」中島みゆき 	1998）
 というわけで、Arduino Uno R4 WiFi で FizzBuzz。以前紹介した Arduino Uno R4 minima に 12x8LEDマトリックスと通信を強化したバージョンである。開発環境は ArduinoIDE ver.2.2.1 でさくっとね。
