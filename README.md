@@ -562,3 +562,10 @@ USB：USB-C（プログラミングポート / HID）
   ![FizzBuzzUNOR4WiFi.png](FizzBuzzUNOR4WiFi.png)
   ![FizzBuzzUNOR4WiFi.gif](FizzBuzzUNOR4WiFi.gif)
 
+50. 【番外編】Scheme で FizzBuzz・・・[FizzBuzz.scm](FizzBuzz.scm)
+
+【FizzBuzz番外編】
+『鏡よ鏡不思議な鏡　まま母なんかやりたくないの　白雪姫をやりたいのあたし』（「鏡よ鏡」（「もうひとりのアリス」）谷山浩子 1978）
+というわけで、魔法使いの言語 Scheme（軽量LISP）で FizzBuzz 。20代の頃勉強した記憶があるが既に忘却の彼方。
+
+  ![scheme.png](scheme.png)
