@@ -577,4 +577,11 @@ USB：USB-C（プログラミングポート / HID）
 というわけで、UNIXのbc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。
 
   ![fizzbuzzbc.png](fizzbuzzbc.png)
-  
+
+52. 【番外編】UNIX dc で FizzBuzz・・・[fizzbuzz.dc](fizzbuzz.dc)
+
+【FizzBuzz番外編】
+『明日になればどのようにぼくは君を愛すだろう時は短くぼくたちはもっと短い』（「君と淋しい風になる」森田童子 1977）
+というわけで、
+
+  ![fizzbuzz.dc.png](fizzbuzz.dc.png)  
