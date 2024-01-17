@@ -569,3 +569,12 @@ USB：USB-C（プログラミングポート / HID）
 というわけで、魔法使いの言語 Scheme（軽量LISP）で FizzBuzz 。20代の頃勉強した記憶があるが既に忘却の彼方。
 
   ![scheme.png](scheme.png)
+
+51. 【番外編】UNIX bc で FizzBuzz・・・[fizzbuzz.bc](fizzbuzz.bc)
+
+【FizzBuzz番外編】
+『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）
+というわけで、UNIXのbc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。
+
+  ![fizzbuzz.bc.png](fizzbuzz.bc.png)
+  
