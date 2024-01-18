@@ -593,7 +593,7 @@ USB：USB-C（プログラミングポート / HID）
 
 『春のこもれ陽の中で　君のやさしさに　うもれていたぼくは　弱虫だったんだヨネ』（「ぼくたちの失敗」森田童子 1976）  
 というわけで、Mind で FizzBuzz 。Forthの影響を受けた、（プログラミング言語としては）日本語っぽい自然な見掛け（と主張されている）が特徴であるプログラミング言語で、いわゆる日本語プログラミング言語のひとつである。(Wikipediaより)   
- 
+ほぼほぼ木村先輩のパクリだが、ちょっと圧縮してみた。  
 [Mind プログラミングマニュアル](https://www.scripts-lab.co.jp/mind/ver8/doc/index.html)  
 [Wikipedia Mind](https://ja.wikipedia.org/wiki/Mind_(プログラミング言語))    
   ![fizzbuzz.src.png](fizzbuzz.src.png)  
