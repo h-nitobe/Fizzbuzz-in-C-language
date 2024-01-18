@@ -582,6 +582,12 @@ USB：USB-C（プログラミングポート / HID）
 
 【FizzBuzz番外編】
 『明日になればどのようにぼくは君を愛すだろう時は短くぼくたちはもっと短い』（「君と淋しい風になる」森田童子 1977）
-というわけで、
+というわけで、UNIXのdc(Desk Calculator)で FizzBuzz 。任意精度演算、クロスプラットフォーム、逆ポーランド記法の計算機ユーティリティである。
+実行例は厳密に言えば Linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。
+実は昨日の中間記法の bc は dc をバックエンドプロセスとして利用している。らしい。
+御覧の通り、ぱっと見、さっぱりわからないのがご愛敬である。大丈夫。丹念にトレースすれば解るから。
+[RosettaCode FizzBuzz dc](https://rosettacode.org/wiki/FizzBuzz#dc)
+[man dc](https://ja.manpages.org/dc)
+[Wikipedia dc](https://ja.wikipedia.org/wiki/Dc_(UNIX))
 
   ![fizzbuzz.dc.png](fizzbuzz.dc.png)  
