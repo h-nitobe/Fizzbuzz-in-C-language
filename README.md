@@ -573,8 +573,21 @@ USB：USB-C（プログラミングポート / HID）
 51. 【番外編】UNIX bc で FizzBuzz・・・[fizzbuzz.bc](fizzbuzz.bc)
 
 【FizzBuzz番外編】
-『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）
-というわけで、UNIXのbc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。
-
+『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）  
+というわけで、unix の bc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。  
+実行例は厳密に言えば linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
   ![fizzbuzzbc.png](fizzbuzzbc.png)
-  
+
+52. 【番外編】UNIX dc で FizzBuzz・・・[fizzbuzz.dc](fizzbuzz.dc)
+
+【FizzBuzz番外編】
+『明日になればどのようにぼくは君を愛すだろう時は短くぼくたちはもっと短い』（「君と淋しい風になる」森田童子 1977）  
+というわけで、unix の dc(Desk Calculator)で FizzBuzz 。任意精度演算、クロスプラットフォーム、逆ポーランド記法の計算機ユーティリティである。  
+実行例は厳密に言えば linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
+実は昨日の中間記法の bc は dc をバックエンドプロセスとして利用している。らしい。
+御覧の通り、ぱっと見、さっぱりわからないのがご愛敬である。大丈夫。丹念にトレースすれば解るから。  
+[RosettaCode FizzBuzz dc](https://rosettacode.org/wiki/FizzBuzz#dc)  
+[man dc](https://ja.manpages.org/dc)  
+[Wikipedia dc](https://ja.wikipedia.org/wiki/Dc_(UNIX))  
+
+  ![fizzbuzz.dc.png](fizzbuzz.dc.png)  
