@@ -1,5 +1,5 @@
 /**
-*       @file           FizzBuzzModStr5.c
+*       @file           FizzBuzzFer.c
 *       @brief          フェルマーの小定理でFizzBuzz
 *       @author         新渡戸広明
 *       @date           2024/01/05
@@ -10,6 +10,8 @@
 *
 *                       i%3   : 120120120120...
 *                       i*i%3 : 110110110110...
+*
+*                       美しいシーケンスだが計算コストが高いなぁ
 */
 
 #include	<stdio.h>
