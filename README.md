@@ -573,9 +573,9 @@ USB：USB-C（プログラミングポート / HID）
 51. 【番外編】UNIX bc で FizzBuzz・・・[fizzbuzz.bc](fizzbuzz.bc)
 
 【FizzBuzz番外編】
-『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）
-というわけで、UNIXのbc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。
-
+『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）  
+というわけで、UNIXのbc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。  
+実行例は厳密に言えば Linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
   ![fizzbuzzbc.png](fizzbuzzbc.png)
 
 52. 【番外編】UNIX dc で FizzBuzz・・・[fizzbuzz.dc](fizzbuzz.dc)
