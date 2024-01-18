@@ -564,7 +564,6 @@ USB：USB-C（プログラミングポート / HID）
 
 50. 【番外編】Scheme で FizzBuzz・・・[fizzbuzz.scm](fizzbuzz.scm)
 
-【FizzBuzz番外編】
 『鏡よ鏡不思議な鏡　まま母なんかやりたくないの　白雪姫をやりたいのあたし』（「鏡よ鏡」（「もうひとりのアリス」）谷山浩子 1978）
 というわけで、魔法使いの言語 Scheme（軽量LISP）で FizzBuzz 。20代の頃勉強した記憶があるが既に忘却の彼方。
 
@@ -572,7 +571,6 @@ USB：USB-C（プログラミングポート / HID）
 
 51. 【番外編】UNIX bc で FizzBuzz・・・[fizzbuzz.bc](fizzbuzz.bc)
 
-【FizzBuzz番外編】
 『いくつも街を歩くうちに　いつか外の世界は狭くなる　教室の窓がもう見えない　夢の行き場がどこにもない』（「窓」谷山浩子 1977）  
 というわけで、unix の bc(Business Calculator)で FizzBuzz 。文法的にはC言語とほぼ同じ。任意精度演算ができる優れモノだ。  
 実行例は厳密に言えば linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
@@ -580,7 +578,6 @@ USB：USB-C（プログラミングポート / HID）
 
 52. 【番外編】UNIX dc で FizzBuzz・・・[fizzbuzz.dc](fizzbuzz.dc)
 
-【FizzBuzz番外編】
 『明日になればどのようにぼくは君を愛すだろう時は短くぼくたちはもっと短い』（「君と淋しい風になる」森田童子 1977）  
 というわけで、unix の dc(Desk Calculator)で FizzBuzz 。任意精度演算、クロスプラットフォーム、逆ポーランド記法の計算機ユーティリティである。  
 実行例は厳密に言えば linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
@@ -591,3 +588,12 @@ USB：USB-C（プログラミングポート / HID）
 [Wikipedia dc](https://ja.wikipedia.org/wiki/Dc_(UNIX))  
 
   ![fizzbuzz.dc.png](fizzbuzz.dc.png)  
+
+53. 【番外編】Mind で FizzBuzz・・・[fizzbuzz.src](fizzbuzz.src)
+
+『春のこもれ陽の中で　君のやさしさに　うもれていたぼくは　弱虫だったんだヨネ』（「ぼくたちの失敗」森田童子 1976）  
+というわけで、Mind で FizzBuzz 。Forthの影響を受けた、（プログラミング言語としては）日本語っぽい自然な見掛け（と主張されている）が特徴であるプログラミング言語で、いわゆる日本語プログラミング言語のひとつである。(Wikipediaより)   
+ 
+[Mind プログラミングマニュアル](https://www.scripts-lab.co.jp/mind/ver8/doc/index.html)  
+[Wikipedia Mind](https://ja.wikipedia.org/wiki/Mind_(プログラミング言語))    
+  ![fizzbuzz.src.png](fizzbuzz.src.png)  
