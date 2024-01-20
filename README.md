@@ -597,3 +597,12 @@ USB：USB-C（プログラミングポート / HID）
 [Mind プログラミングマニュアル](https://www.scripts-lab.co.jp/mind/ver8/doc/index.html)  
 [Wikipedia Mind](https://ja.wikipedia.org/wiki/Mind_(プログラミング言語))    
   ![fizzbuzz.src.png](fizzbuzz.src.png)  
+
+54. 【番外編】(g)forth で FizzBuzz・・・[fizzbuzz.ft](fizzbuzz.ft)
+
+『A Jedi uses the Forth for knowledge and defence, never for attack.（ジェダイはフォースを知識と防御のために使用し、決して攻撃のために使用しません。）』（「Star Wars: Ep.V 」Grand Master Yoda 1980）  
+というわけで、(g)forth で FizzBuzz。竹下世界塔さんのコードが美しいのでパクってみた。華麗なスタック・オペレーションは見事である。ベタ印字の為にちょっと手を入れさせていただいた。コメントは新渡戸が入れたので、誤謬があるやもしれません。  
+マスターヨーダのセリフの一部スペルが間違いです。さてどこでしょう？探してください。  
+[forthで書いたFizzBuzz（竹下世界塔）](http://twtsoft.web.fc2.com/script/fizzbuzz_forth.html)  
+[竹下世界塔](https://www2b.biglobe.ne.jp/~houmei/)    
+  ![fizzbuzz.ft.png](fizzbuzz.ft.png)  
