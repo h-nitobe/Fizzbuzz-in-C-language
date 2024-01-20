@@ -1,9 +1,9 @@
 コンパイル抑止
 	@file		fizzbuzz.src
 	@brief
-	@author		新渡戸広明 勉強中　オリジナルは木村明氏
+	@author		木村明
 	@date		2024/01/18
-	@details
+	@details	modefied by 新渡戸広明
 コンパイル抑止終り
 
 メインは

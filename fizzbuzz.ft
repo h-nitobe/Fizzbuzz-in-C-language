@@ -1,0 +1,22 @@
+\
+\       @file           fizzbuzz.ft
+\       @brief          forth で FizzBuzz
+\       @author         竹下世界塔
+\                       http://twtsoft.web.fc2.com/script/fizzbuzz_forth.html
+\                       https://www2b.biglobe.ne.jp/~houmei/
+\       @date           2024/01/20
+\       @details        modefied by 新渡戸広明
+\
+: fizzbuzz		\ declaration fizzbuzz
+101 1 do		\ push 101 push i = 1 do loop
+    i 5 mod 0=		\ push buzzFlag
+    i 3 mod 0=		\ push fizzFlag
+    2dup or 0=		\ 2dup or (push numFlag)
+    if i 1 .r then	\ pop if numFlag then print i
+    if ." Fizz" then	\ pop if fizzFlag then print "Fizz" 
+    if ." Buzz" then	\ pop if buzzFlag then print "Buzz"
+    space		\ print space
+loop ;			\ i++ < 101 loop
+fizzbuzz		\ call fizzbuzz
+cr			\ newline
+bye			\ exit
