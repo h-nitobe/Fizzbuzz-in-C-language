@@ -606,3 +606,10 @@ USB：USB-C（プログラミングポート / HID）
 [forthで書いたFizzBuzz（竹下世界塔）](http://twtsoft.web.fc2.com/script/fizzbuzz_forth.html)  
 [竹下世界塔](https://www2b.biglobe.ne.jp/~houmei/)    
   ![fizzbuzz.ft.png](fizzbuzz.ft.png)  
+
+55. 【番外編】awk で FizzBuzz・・・[fizzbuzz.awk](fizzbuzz.awk)
+
+『長い髪をかきあげて　ひげをはやしたやさしい君は　ひとりぼっちでひとごみを　歩いていたネ　さよならぼくのともだち』（「さよならぼくのともだち」森田童子 1975）  
+というわけで、awk(alfred Aho/peter Weinberger/brian Kernighan）で FizzBuzz
+[man gawk(1)](https://ja.manpages.org/gawk)  
+ ![fizzbuzz.awk.png](fizzbuzz.awk.png)  
