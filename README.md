@@ -613,3 +613,12 @@ USB：USB-C（プログラミングポート / HID）
 というわけで、awk(alfred Aho/peter Weinberger/brian Kernighan）で FizzBuzz
 [man gawk(1)](https://ja.manpages.org/gawk)  
  ![fizzbuzz.awk.png](fizzbuzz.awk.png)  
+
+56. 【番外編】正規表現 で FizzBuzz・・・[fizzbuzzRE1.sh](fizzbuzzRE1.sh)[fizzbuzzRE2.sh](fizzbuzzRE2.sh)
+
+『君とよくこの店に来たものさ　訳もなくお茶を飲み話したよ』（「学生街の喫茶店」ガロ（山上路夫・詞） 1972）  
+というわけで、正規表現で FizzBuzz。白状します。さっぱりわかりません。  
+５の倍数は１の桁が０か５で判定、３の倍数は全ての桁を加算したものが剰余となることを利用しています。詳細な理論はリンクで確認してください。状態遷移図が出てきます。  
+ ![3の倍数にマッチする正規表現（tki (id:goth_wrist_cut)）](https://goth-wrist-cut.hatenadiary.org/entry/20080728/1217231454)  
+ ![正規表現でFizzBuzz（唯物是真 @Scaled_Wurm）](https://sucrose.hatenablog.com/entry/2018/02/25/230355)  
+ ![再帰を使った正規表現で3の倍数を表す (正規表現で FizzBuzz の続き)（唯物是真 @Scaled_Wurm）](https://sucrose.hatenablog.com/entry/2018/02/28/231413)  
