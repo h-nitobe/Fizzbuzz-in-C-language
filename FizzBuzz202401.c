@@ -6,6 +6,7 @@
 *       @details        
 */
 #include	<stdio.h>
+#include	<stdlib.h>
 
 char *i2a(int n);
 
@@ -19,11 +20,11 @@ int main(void)
 	printf("\n");
 
 #if 0	// i2a test
-	printf("0x7fffffff: %11s\n", i2a(0x7fffffff));
-	printf("0x00000001: %11s\n", i2a(0x00000001));
-	printf("0x00000000: %11s\n", i2a(0));
-	printf("0xffffffff: %11s\n", i2a(0xffffffff));
-	printf("0x80000000: %11s\n", i2a(0x80000000));
+	printf("0x7fffffff: %11s %d\n", i2a(0x7fffffff), atoi(i2a(0x7fffffff)));
+	printf("0x00000001: %11s %d\n", i2a(0x00000001), atoi(i2a(0x00000001)));
+	printf("0x00000000: %11s %d\n", i2a(0), atoi(i2a(0)));
+	printf("0xffffffff: %11s %d\n", i2a(0xffffffff), atoi(i2a(0xffffffff)));
+	printf("0x80000000: %11s %d\n", i2a(0x80000000), atoi(i2a(0x80000000)));
 #endif
 	
 	return 0;
