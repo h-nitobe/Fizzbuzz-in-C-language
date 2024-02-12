@@ -1,0 +1,17 @@
+//       @file           FizzBuzz.pg0
+//       @brief          pg0 で FizzBuzz
+//       @author         新渡戸広明
+//       @date           2024/02/12
+//       @details        
+
+i = 0
+
+while (20 - i++) {
+  if (!(i % 3)) { print("Fizz") }
+  if (!(i % 5)) { print("Buzz") }
+  if ((i%3) && (i%5)) { print(i) }
+  print(" ")
+}
+print("\n")
+
+exit
