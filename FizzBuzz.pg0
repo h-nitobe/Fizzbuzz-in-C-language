@@ -6,7 +6,7 @@
 
 i = 0
 
-while (20 - i++) {
+while (100 - i++) {
   if (!(i % 3)) { print("Fizz") }
   if (!(i % 5)) { print("Buzz") }
   if ((i%3) && (i%5)) { print(i) }
