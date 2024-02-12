@@ -625,3 +625,11 @@ USB：USB-C（プログラミングポート / HID）
  [再帰を使った正規表現で3の倍数を表す (正規表現で FizzBuzz の続き)（唯物是真 @Scaled_Wurm）](https://sucrose.hatenablog.com/entry/2018/02/28/231413)  
  ![fizzbuzzRE1.sh.png](fizzbuzzRE1.sh.png)  
  ![fizzbuzzRE2.sh.png](fizzbuzzRE2.sh.png)  
+
+57. 【番外編】pg0 で FizzBuzz・・・[FizzBuzz.pg0](FizzBuzz.pg0)
+
+『この線路の向こうには何があるの？』(「さらばシベリア鉄道」太田裕美（松本隆／大瀧詠一）1980/11/21)  
+というわけで、pg0 で FizzBuzz。簡易C言語のインタプリタだな。文法はC言語そのもの。但し、文末の「；」が不要。  
+
+[PG0](https://nakka.com/soft/pg0/)  
+ ![FizzBuzzPG0.png](FizzBuzzPG0.png)  
