@@ -1,0 +1,34 @@
+//       @file           FizzBuzz3.pg0
+//       @brief          pg0 で FizzBuzz
+//       @author         新渡戸広明
+//       @date           2024/02/18
+//       @details        剰余を使わず、目標値で管理
+
+function main()
+{
+	var i, fizz = 3, buzz = 5, num;
+	
+	for (i = 1; i <= 100; i++) {
+		num = 1;
+		if (i == fizz) {
+			 print("Fizz");
+			 fizz += 3;
+			 num = 0;
+		}
+		if (i == buzz) {
+			print("Buzz");
+			buzz += 5;
+			num = 0;	 
+		}
+		if (num) {
+			print(i);
+		}
+		print(" ");
+	}
+	print("\n");
+
+	return 0;
+}
+
+main();
+exit;

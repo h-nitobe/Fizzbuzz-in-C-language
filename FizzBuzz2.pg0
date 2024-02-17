@@ -1,0 +1,24 @@
+//       @file           FizzBuzz2.pg0
+//       @brief          pg0 で FizzBuzz
+//       @author         新渡戸広明
+//       @date           2024/02/18
+//       @details        文末は「改行」または「;」なので
+//		　                Ｃ言語っぽい記述も可能
+
+function main()		// int main(void)
+{
+	var i;			// int i;
+	
+	for (i = 1; i <= 100; i++) {
+		if (!(i%3)) { print("Fizz"); }
+		if (!(i%5)) { print("Buzz"); }
+		if (i%3 && i%5) { print(i); }
+		print(" ");
+	}
+	print("\n");
+
+	return 0;
+}
+
+main();		// Ｃ言語は自動的に呼び出されるが、あからさまに呼びだす
+exit;				
