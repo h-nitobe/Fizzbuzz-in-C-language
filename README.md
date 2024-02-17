@@ -626,10 +626,10 @@ USB：USB-C（プログラミングポート / HID）
  ![fizzbuzzRE1.sh.png](fizzbuzzRE1.sh.png)  
  ![fizzbuzzRE2.sh.png](fizzbuzzRE2.sh.png)  
 
-57. 【番外編】pg0.5 で FizzBuzz・・・[FizzBuzz.pg0](FizzBuzz.pg0)
+57. 【番外編】pg0.5 で FizzBuzz・・・[FizzBuzz.pg0](FizzBuzz.pg0)　[FizzBuzz2.pg0](FizzBuzz2.pg0)　[FizzBuzz3.pg0](FizzBuzz3.pg0)
 
 『この線路の向こうには何があるの？』(「さらばシベリア鉄道」太田裕美（松本隆／大瀧詠一）1980/11/21)  
-というわけで、pg0.5 で FizzBuzz。簡易C言語のインタプリタだな。文法はC言語そのもの。但し、文末の「；」が不要。  
+というわけで、pg0.5 で FizzBuzz。簡易C言語のインタプリタだな。文法はC言語そのもの。但し、文末の「；」が不要。（あっても良い）    
 「子ども向け」だそうだが、文法はC言語そのものなので、学習コストはC言語と変わらない。ま、いい点はたくさんあるけどね。  
 お手軽であることは否めない。  
 
