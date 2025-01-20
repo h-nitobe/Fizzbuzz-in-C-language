@@ -1,18 +1,17 @@
 /**
 *       @file           FizzBuzz20250119.c
-*       @brief          æ–‡å­—åˆ—é…åˆ—ã¨æ·»ãˆå­—ã‚’é§†ä½¿ã—ã¦ FizzBuzz
-*       @author         æ–°æ¸¡æˆ¸åºƒæ˜Ž
+*       @brief          •¶Žš—ñ”z—ñ‚Æ“Y‚¦Žš‚ð‹ìŽg‚µ‚Ä FizzBuzz
+*       @author         V“nŒËL–¾
 *       @date           2025/01/19
-*       @details        
+*       @details        ‚¨‚Ü‚¯Fƒ|ƒCƒ“ƒ^”Å
 */
 #include	<stdio.h>
-
-int rep(char *s, int n);
 
 int main(void)
 {
 	int		i;
 	
+	// •¶Žš”z—ñ‚Æ“Y‚¦Žš
 	i = 0;
 	while (100 - i++) {
 		printf("%s%s", &"Fizz"[!!(i%3)*4], &"Buzz"[!!(i%5)*4]) || printf("%d", i);
@@ -20,6 +19,7 @@ int main(void)
 	}
 	printf("\n");
 	
+	// str[4] <-“™‰¿-> 4[str] Žg‚í‚È‚¢‚Ù‚¤‚ªg‚Ì‚½‚ß
 	i = 0;
 	while (100 - i++) {
 		printf("%s%s", &(!!(i%3)*4)["Fizz"], &(!!(i%5)*4)["Buzz"]) || printf("%d", i);
@@ -27,6 +27,7 @@ int main(void)
 	}
 	printf("\n");
 
+	// ƒ|ƒCƒ“ƒ^‚ÅŽÀ‘•@‚±‚ê‚ªƒGƒŒƒKƒ“ƒg‚¾‚È
 	i = 0;
 	while (100 - i++) {
 		printf("%s%s", "Fizz"+!!(i%3)*4, "Buzz"+!!(i%5)*4) || printf("%d", i);
