@@ -34,6 +34,14 @@ int main(void)
 		printf(" ");
 	}
 	printf("\n");
-		
+	
+	// ポインタで実装　三項演算子を使ってもいいね
+	i = 0;
+	while (100 - i++) {
+		printf("%s%s", "Fizz"+(i%3?4:0), "Buzz"+(i%5?4:0)) || printf("%d", i);
+		printf(" ");
+	}
+	printf("\n");
+
 	return 0;
 }
