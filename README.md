@@ -648,5 +648,5 @@ USB：USB-C（プログラミングポート / HID）
 実機でやる気はおきません。見事なスパゲッティになってしまったのはご愛敬。
 "U" が出力できないので、"F122/bC22"でごまかした。残念。
 
- ![FizzBuzzHP16C.mp4](FizzBuzzHP16C.mp4) 
+ ![FizzBuzzHP16C.gif](FizzBuzzHP16C.gif) 
  
