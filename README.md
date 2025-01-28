@@ -652,20 +652,19 @@ USB：USB-C（プログラミングポート / HID）
  
 59. PDP11/20 UNIX V1 および1972当時のCコンパイラで FizzBuzz [fb1120.c](fb1120.c)
 
-Age of sixteen I was on the road, Doing things you've never seen("Rolling Stone" Suzi Quatro 1972)
+Age of sixteen I was on the road, Doing things you've never seen("Rolling Stone" Suzi Quatro 1972)<br>
+というわけで、1972当時のCコンパイラで FizzBuzz。<br>
 
-というわけで、1972当時のCコンパイラで FizzBuzz。
-
-linux 上の PDP11/20 エミュレータで 当時のCコンパイラソースをビルドして FizzBuzz ってみる。
-詳細は「1972年頃の歴史的Cコンパイラを動かす」で。なかなか骨が折れるぞ。
-比較的まっとうなFizzBuzzソースコードをでっち上げてコンパイルする。注意点は以下の通り。
-１．ファイル名はトータルで８文字以内。（まんまとはまった）
-２．改行はLFのみ。CRが混入していると怒られる。（まんまとはまった）
-３．この当時まだプリプロセッサがない。#include が書けない。
-４．使用するライブラリ関数名は extern する。
-５．関数仮引数宣言を書く場所が違う。
-６．for がまだない。
-７．return 0; とは書けない。return(0); と書く。
+linux 上の PDP11/20 エミュレータで 当時のCコンパイラソースをビルドして FizzBuzz ってみる。<br>
+詳細は「1972年頃の歴史的Cコンパイラを動かす」で。なかなか骨が折れるぞ。<br>
+比較的まっとうなFizzBuzzソースコードをでっち上げてコンパイルする。注意点は以下の通り。<br>
+１．ファイル名はトータルで８文字以内。（まんまとはまった）<br>
+２．改行はLFのみ。CRが混入していると怒られる。（まんまとはまった）<br>
+３．この当時まだプリプロセッサがない。#include が書けない。<br>
+４．使用するライブラリ関数名は extern する。<br>
+５．関数仮引数宣言を書く場所が違う。<br>
+６．for がまだない。<br>
+７．return 0; とは書けない。return(0); と書く。<br>
 
 [1972年頃の歴史的Cコンパイラを動かす](https://qiita.com/cat-in-136/items/6458ff7e7fd11e4ded42)
 
