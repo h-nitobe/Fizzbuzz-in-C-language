@@ -653,7 +653,8 @@ USB：USB-C（プログラミングポート / HID）
 59. PDP11/20 UNIX V1 および1972当時のCコンパイラで FizzBuzz [fb1120.c](fb1120.c)
 
 Age of sixteen I was on the road, Doing things you've never seen("Rolling Stone" Suzi Quatro 1972)
-ろいうわけで、1972当時のCコンパイラで FizzBuzz。
+
+というわけで、1972当時のCコンパイラで FizzBuzz。
 
 linux 上の PDP11/20 エミュレータで 当時のCコンパイラソースをビルドして FizzBuzz ってみる。
 詳細は「1972年頃の歴史的Cコンパイラを動かす」で。なかなか骨が折れるぞ。
