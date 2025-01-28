@@ -665,7 +665,9 @@ linux 上の PDP11/20 エミュレータで 当時のCコンパイラソース�
 ５．関数仮引数宣言を書く場所が違う。<br>
 ６．for がまだない。<br>
 ７．return 0; とは書けない。return(0); と書く。<br>
-
+８．cc の -o オプションが無さそうだ。いつも a.out 。<br>
+　　ま、mv コマンドで改名すればいっか。<br>
+  
 [1972年頃の歴史的Cコンパイラを動かす](https://qiita.com/cat-in-136/items/6458ff7e7fd11e4ded42)
 
   ![pdp11-20.png](pdp11-20.png)
