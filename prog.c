@@ -1,3 +1,11 @@
+/**
+*       @file           prog.c
+*       @brief          FizzBuzzを書かない FizzBuzz
+*       @author         新渡戸広明
+*       @date           2025/02/24
+*       @details        union と endian を講義で扱ったので使ってみる
+*                       for 文の条件式の三項演算子は < より弱いので括弧が必要
+*/
 #include    <stdio.h>
 
 int main(void)
