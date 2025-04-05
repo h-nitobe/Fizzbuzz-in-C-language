@@ -19,7 +19,10 @@
 *              12           0       1           0   Fizz
 *              13           1
 *              14           1
-*               0           0       0           1   FizzBuzz      
+*               0           0       0           1   FizzBuzz
+*
+*               ＰＩＣマイコンは面白い FizzBuzz問題（独自解法） skyriverさん
+*               https://piclabo.seesaa.net/article/FizzBuzzSolver.html
 */
 #include    <stdio.h>
 
