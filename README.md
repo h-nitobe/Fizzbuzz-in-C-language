@@ -691,7 +691,7 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
 
 [TRYGEAR-DASH-RP2350A の詳細はここを参照のこと](https://www.microfan.jp/2026/01/trygear-dash-rp2350a-r1/)<br>
 [ST7789 の詳細はここを参照のこと](https://www.microfan.jp/2025/01/st7789-tft-display/)<br>
-[Knockin' On Heaven's Door(Guns N' Roses)](https://www.youtube.com/watch?v=f8OHybVhQwc){:target="_blank"}<br>
+![Knockin' On Heaven's Door(Guns N' Roses)](https://www.youtube.com/watch?v=f8OHybVhQwc)<br>
 
    ![FizzBuzzST7789_0.jpg](FizzBuzzST7789_0.jpg)
    ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
