@@ -689,3 +689,6 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
 
 他はいつも通りですね。<br>
 
+   ![FizzBuzzST7789_0.jpg](FizzBuzzST7789_0.jpg)
+   ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
+   ![FizzBuzzST7789_2.jpg](FizzBuzzST7789_2.jpg)
