@@ -696,3 +696,14 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
    ![FizzBuzzST7789_0.jpg](FizzBuzzST7789_0.jpg)
    ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
    ![FizzBuzzST7789_2.jpg](FizzBuzzST7789_2.jpg)
+   
+60. 【番外編】MCS-85でFizzBuzz
+
+「i 罠 B wiθU」（「ギブス」椎名林檎2000）
+というわけで、最近ヴィンテージCPUで遊んでいる。手始めは MCS-85（1976年3月）である。i8085（3MHzCPU）、i8156（256ByteRAM、IO、TIMER）、i8755（２KByteUV-EPROM、IO）の3チップで最小システムを構成できる。詳細はWikipedia、電脳伝説を参照のこと。
+モニタを i8755UV-EPROM に焼き付けるのだが、紫外線消去25V書き込みという超古い仕様なので今時のツールでは手も足も出ない。電脳伝説さんは 8755 ライターも用意されている。
+CPU基板、ライター基板、どちらも地道に部品集めをしてちまちまはんだ付けを行う。ROMを焼いたら動きましたがなモニタ。
+
+[Intel 8085#MCS-85](https://ja.wikipedia.org/wiki/Intel_8085#MCS-85) wikipedia
+[電脳伝説　MCS-85が動いた](https://vintagechips.wordpress.com/2016/12/31/mcs-85%e3%81%8c%e5%8b%95%e3%81%84%e3%81%9f/)　2016年12月31日　vintagechips
+[WRT8755最終版が完成(https://vintagechips.wordpress.com/2021/04/05/wrt8755-fixed/)　2021年4月5日　vintagechips]
