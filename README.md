@@ -583,7 +583,7 @@ USB：USB-C（プログラミングポート / HID）
 実行例は厳密に言えば linux の dc である。そこんところ大人の（歴史的な）事情として忖度して飲み込んでいただきたい。  
   ![fizzbuzzbc.png](fizzbuzzbc.png)
 
-52. 【番外編】UNIX dc で FizzBuzz・・・[fizzbuzz.dc](fizzbuzz.dc)
+52. 【番外編】UNIX dc で FizzBuzz (2024/01/18)・・・[fizzbuzz.dc](fizzbuzz.dc)
 
 『明日になればどのようにぼくは君を愛すだろう時は短くぼくたちはもっと短い』（「君と淋しい風になる」森田童子 1977）  
 というわけで、unix の dc(Desk Calculator)で FizzBuzz 。任意精度演算、クロスプラットフォーム、逆ポーランド記法の計算機ユーティリティである。  
@@ -596,7 +596,7 @@ USB：USB-C（プログラミングポート / HID）
 
   ![fizzbuzz.dc.png](fizzbuzz.dc.png)  
 
-53. 【番外編】Mind で FizzBuzz・・・[fizzbuzz.src](fizzbuzz.src)
+53. 【番外編】Mind で FizzBuzz (2024/01/19) ・・・[fizzbuzz.src](fizzbuzz.src)
 
 『春のこもれ陽の中で　君のやさしさに　うもれていたぼくは　弱虫だったんだヨネ』（「ぼくたちの失敗」森田童子 1976）  
 というわけで、Mind で FizzBuzz 。Forthの影響を受けた、（プログラミング言語としては）日本語っぽい自然な見掛け（と主張されている）が特徴であるプログラミング言語で、いわゆる日本語プログラミング言語のひとつである。(Wikipediaより)   
@@ -605,7 +605,7 @@ USB：USB-C（プログラミングポート / HID）
 [Wikipedia Mind](https://ja.wikipedia.org/wiki/Mind_(プログラミング言語))    
   ![fizzbuzz.src.png](fizzbuzz.src.png)  
 
-54. 【番外編】(g)forth で FizzBuzz・・・[fizzbuzz.ft](fizzbuzz.ft)
+54. 【番外編】(g)forth で FizzBuzz (2024/01/20)・・・[fizzbuzz.ft](fizzbuzz.ft)
 
 『A Jedi uses the Forth for knowledge and defence, never for attack.（ジェダイはフォースを知識と防御のために使用し、決して攻撃のために使用しません。）』（「Star Wars: Ep.V 」Grand Master Yoda 1980）  
 というわけで、(g)forth で FizzBuzz。竹下世界塔さんのコードが美しいのでパクってみた。華麗なスタック・オペレーションは見事である。ベタ印字の為にちょっと手を入れさせていただいた。コメントは新渡戸が入れたので、誤謬があるやもしれません。  
@@ -614,14 +614,14 @@ USB：USB-C（プログラミングポート / HID）
 [竹下世界塔](https://www2b.biglobe.ne.jp/~houmei/)    
   ![fizzbuzz.ft.png](fizzbuzz.ft.png)  
 
-55. 【番外編】awk で FizzBuzz・・・[fizzbuzz.awk](fizzbuzz.awk)
+55. 【番外編】awk で FizzBuzz (2024/01/21)・・・[fizzbuzz.awk](fizzbuzz.awk)
 
 『長い髪をかきあげて　ひげをはやしたやさしい君は　ひとりぼっちでひとごみを　歩いていたネ　さよならぼくのともだち』（「さよならぼくのともだち」森田童子 1975）  
 というわけで、awk(alfred Aho/peter Weinberger/brian Kernighan）で FizzBuzz
 [man gawk(1)](https://ja.manpages.org/gawk)  
  ![fizzbuzz.awk.png](fizzbuzz.awk.png)  
 
-56. 【番外編】正規表現 で FizzBuzz・・・[fizzbuzzRE1.sh](fizzbuzzRE1.sh)[fizzbuzzRE2.sh](fizzbuzzRE2.sh)
+56. 【番外編】正規表現 で FizzBuzz (2024/01/22)・・・[fizzbuzzRE1.sh](fizzbuzzRE1.sh)[fizzbuzzRE2.sh](fizzbuzzRE2.sh)
 
 『君とよくこの店に来たものさ　訳もなくお茶を飲み話したよ』（「学生街の喫茶店」ガロ（山上路夫・詞） 1972）  
 というわけで、正規表現で FizzBuzz。白状します。さっぱりわかりません。  
@@ -633,7 +633,7 @@ USB：USB-C（プログラミングポート / HID）
  ![fizzbuzzRE1.sh.png](fizzbuzzRE1.sh.png)  
  ![fizzbuzzRE2.sh.png](fizzbuzzRE2.sh.png)  
 
-57. 【番外編】pg0.5 で FizzBuzz・・・[FizzBuzz.pg0](FizzBuzz.pg0)　[FizzBuzz2.pg0](FizzBuzz2.pg0)　[FizzBuzz3.pg0](FizzBuzz3.pg0)
+57. 【番外編】pg0.5 で FizzBuzz (2024/02/12)・・・[FizzBuzz.pg0](FizzBuzz.pg0)　[FizzBuzz2.pg0](FizzBuzz2.pg0)　[FizzBuzz3.pg0](FizzBuzz3.pg0)
 
 『この線路の向こうには何があるの？』(「さらばシベリア鉄道」太田裕美（松本隆／大瀧詠一）1980/11/21)  
 というわけで、pg0.5 で FizzBuzz。簡易C言語のインタプリタだな。文法はC言語そのもの。但し、文末の「；」が不要。（あっても良い）    
@@ -643,7 +643,7 @@ USB：USB-C（プログラミングポート / HID）
 [PG0](https://nakka.com/soft/pg0/)  
  ![FizzBuzzPG0.png](FizzBuzzPG0.png)  
 
-58. 【番外編】hp16c で FizzBuzz ・・・[FizzBuzz.hp16c](FizzBuzz.hp16c)
+58. 【番外編】hp16c で FizzBuzz (2025/01/27)・・・[FizzBuzz.hp16c](FizzBuzz.hp16c)
 
 「ただの人間には興味ありません。この中に宇宙人、未来人、異世界人、超能力者が居たら私のところに来なさい！以上！！」（涼宮ハルヒ）
 というわけで、憧れのHP16CでFizzBuzz。プログラムというよりキーの操作記録ですね。
@@ -654,7 +654,7 @@ USB：USB-C（プログラミングポート / HID）
 
  ![FizzBuzzHP16C.gif](FizzBuzzHP16C.gif) 
  
-59. PDP11/20 UNIX V1 および1972当時のCコンパイラで FizzBuzz [fb1120.c](fb1120.c)
+59. PDP11/20 UNIX V1 および1972当時のCコンパイラで FizzBuzz　(2025/01/28) [fb1120.c](fb1120.c)
 
 Age of sixteen I was on the road, Doing things you've never seen("Rolling Stone" Suzi Quatro 1972)<br>
 というわけで、1972当時のCコンパイラで FizzBuzz。<br>
