@@ -708,5 +708,7 @@ CPU基板、ライター基板、どちらも地道に部品集めをしてち�
 [電脳伝説　MCS-85が動いた](https://vintagechips.wordpress.com/2016/12/31/mcs-85%e3%81%8c%e5%8b%95%e3%81%84%e3%81%9f/)　2016年12月31日　vintagechips<br>
 [WRT8755最終版が完成(https://vintagechips.wordpress.com/2021/04/05/wrt8755-fixed/)　2021年4月5日　vintagechips]<br>
 
+![FizzBuzz8085_1.jpg](FizzBuzz8085_1.jpg)
+![FizzBuzz8085_2.jpg](FizzBuzz8085_2.jpg)
 ![MCS8085.jpg](MCS8085.jpg)
 ![WRT8755.jpg](WRT8755.jpg)
