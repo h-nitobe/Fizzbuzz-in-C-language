@@ -677,7 +677,7 @@ linux 上の PDP11/20 エミュレータで 当時のCコンパイラソース�
   ![pdp11-20.png](pdp11-20.png)
   ![fb1120.png](fb1120.png)
 
-60. TRYGEAR-DASH-RP2350A と ST7789 で FizzBuzz [FizzBuzzST7789.ino](FizzBuzzST7789.ino)
+60. TRYGEAR-DASH-RP2350A と ST7789 で FizzBuzz (2026/06/01) [FizzBuzzST7789.ino](FizzBuzzST7789.ino)
 
 I feel I’m knockin’ on heaven’s door (Knockin' on Heaven's Door 1973 Written by Bob Dylan)(1992 Cover by Guns N' Roses) 4月1日にスタンフォードB型急性大動脈解離を発症して天国の扉を叩いてきた。只今養生中。暇なので TRYGEAR-DASH-RP2350A と ST7789 で FizzBuzz。何故か Raspberry Pi Pico 2 互換ボードなのである。<br>
 
@@ -697,7 +697,7 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
    ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
    ![FizzBuzzST7789_2.jpg](FizzBuzzST7789_2.jpg)
    
-60. 【番外編】MCS-85でFizzBuzz 2026/10/29 [FizzBuzz_8085.txt](FizzBuzz_8085.txt)
+60. 【番外編】MCS-85でFizzBuzz (2026/10/29) [FizzBuzz_8085.txt](FizzBuzz_8085.txt)
 
 「i 罠 B wiθU」（「ギブス」椎名林檎2000）<br>
 というわけで、最近ヴィンテージCPUで遊んでいる。手始めは MCS-85（1976年3月）である。i8085（3MHzCPU）、i8156（256ByteRAM、IO、TIMER）、i8755（２KByteUV-EPROM、IO）の3チップで最小システムを構成できる。詳細はWikipedia、電脳伝説を参照のこと。<br>
