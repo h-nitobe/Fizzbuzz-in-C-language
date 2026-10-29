@@ -697,7 +697,7 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
    ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
    ![FizzBuzzST7789_2.jpg](FizzBuzzST7789_2.jpg)
    
-60. 【番外編】MCS-85でFizzBuzz
+60. 【番外編】MCS-85でFizzBuzz 2026/10/29 [FizzBuzz_8085.txt](FizzBuzz_8085.txt)
 
 「i 罠 B wiθU」（「ギブス」椎名林檎2000）<br>
 というわけで、最近ヴィンテージCPUで遊んでいる。手始めは MCS-85（1976年3月）である。i8085（3MHzCPU）、i8156（256ByteRAM、IO、TIMER）、i8755（２KByteUV-EPROM、IO）の3チップで最小システムを構成できる。詳細はWikipedia、電脳伝説を参照のこと。<br>
