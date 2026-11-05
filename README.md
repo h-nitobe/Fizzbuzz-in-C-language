@@ -727,7 +727,7 @@ FizzBuzzは15カウンタ 0-14 のパターンを繰り返すのだが、この�
 例外：15カウンタが0（15）ならば FizzBuzz。<br>
 美しい。<br>
 通常のアルゴリズムはFizzBuzz判定を3か5の剰余で求めるのだが、 i8085 は乗算、除(剰余)算の命令を持っていない為、剰余は減算のループで実装しなければならない。パリティ判定は PSW の P ビット判定の一命令で完了する。<br>
-PUTCH と PUTS と PUTSPC と PUTCRLF はモニタを叩いている。他は全て自前。<br>
+PUTCH と PUTS と PUTSPC と PUTCRLF はモニタを叩いている。他は全て自前。16バイト位コンパクトになっている。<br>
 
 ![FizzBuzz_8085_parity_1.jpg](FizzBuzz_8085_parity_1.jpg)<br>
 ![FizzBuzz_8085_parity_2.jpg](FizzBuzz_8085_parity_2.jpg)<br>
