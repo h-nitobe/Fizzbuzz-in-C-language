@@ -715,7 +715,7 @@ CPU基板、ライター基板、どちらも地道に部品集めをしてち�
 ![MCS8085.jpg](MCS8085.jpg)
 ![WRT8755.jpg](WRT8755.jpg)
 
-62. 【番外編】MCS-85かつパリティでFizzBuzz (2026/11/05) [FizzBuzz_8085_parity.txt](FizzBuzz_8085_parity.txt)
+62. 【番外編】MCS-85かつパリティでFizzBuzz (2026/11/05) [FizzBuzz_8085_parity.txt](FizzBuzz_8085_parity.txt)　[FizzBuzz_8085_parity.ｌlst](FizzBuzz_8085_parity.lst)
 
 Parity is for farmers.(Seymour Cray (Early 1960s)) <br>
 というわけで、2025年4月5日のアルゴリズムを i8085 で実装する。蒸し返し。<br>
