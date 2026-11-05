@@ -697,7 +697,7 @@ arduinoIDE を使ってプログラミングする。肝は「Raspberry Pi Pico/
    ![FizzBuzzST7789_1.jpg](FizzBuzzST7789_1.jpg)
    ![FizzBuzzST7789_2.jpg](FizzBuzzST7789_2.jpg)
    
-60. 【番外編】MCS-85でFizzBuzz (2026/10/29) [FizzBuzz_8085.txt](FizzBuzz_8085.txt)
+61. 【番外編】MCS-85でFizzBuzz (2026/10/29) [FizzBuzz_8085.txt](FizzBuzz_8085.txt)
 
 「i 罠 B wiθU」（「ギブス」椎名林檎2000）<br>
 というわけで、最近ヴィンテージCPUで遊んでいる。手始めは MCS-85（1976年3月）である。i8085（3MHzCPU）、i8156（256ByteRAM、IO、TIMER）、i8755（２KByteUV-EPROM、IO）の3チップで最小システムを構成できる。詳細はWikipedia、電脳伝説を参照のこと。<br>
@@ -714,3 +714,20 @@ CPU基板、ライター基板、どちらも地道に部品集めをしてち�
 ![FizzBuzz8085_2.jpg](FizzBuzz8085_2.jpg)
 ![MCS8085.jpg](MCS8085.jpg)
 ![WRT8755.jpg](WRT8755.jpg)
+
+62. 【番外編】MCS-85かつパリティでFizzBuzz (2026/11/05) [FizzBuzz_8085_parity.txt](FizzBuzz_8085_parity.txt)
+
+Parity is for farmers.(Seymour Cray (Early 1960s)) <br>
+というわけで、2025年4月5日のアルゴリズムを i8085 で実装する。蒸し返し。<br>
+FizzBuzzは15カウンタ 0-14 のパターンを繰り返すのだが、この４ビットのパリティに注目すると、<br>
+1. 奇数パリティだと非FizzBuzz。1 2 4 7 8 11 13 14。<br>
+2. 偶数パリティだとFizzかBuzz。<br>
+2-1. （15カウンタ & 5）のパリティが奇数ならば Fizz。<br>
+2-2. （15カウンタ & 5）のパリティが偶数ならば Buzz。<br>
+例外：15カウンタが0（15）ならば FizzBuzz。<br>
+美しい。<br>
+通常のアルゴリズムはFizzBuzz判定を3か5の剰余で求めるのだが、 i8085 は乗算、除(剰余)算の命令を持っていない為、剰余は減算のループで実装しなければならない。パリティ判定は PSW の P ビット判定の一命令で完了する。<br>
+PUTCH と PUTS と PUTSPC と PUTCRLF はモニタを叩いている。他は全て自前。<br>
+
+![FizzBuzz8085_parity_1.jpg](FizzBuzz8085_parity_1.jpg)
+![FizzBuzz8085_parity_2.jpg](FizzBuzz8085_parity_2.jpg)
