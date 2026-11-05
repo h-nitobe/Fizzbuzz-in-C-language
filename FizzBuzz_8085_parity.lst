@@ -1,0 +1,83 @@
+FF00                          .ORG  0xFF00   
+FF00   06 01        START:    MVI   B,1   
+FF02   48                     MOV   C,B   
+FF03                LOOP:        
+FF03   79                     MOV   A,C   
+FF04   B7                     ORA   A   
+FF05   E2 2A FF               JPO   ODD   
+FF08   E6 05                  ANI   5   
+FF0A   57                     MOV   D,A   
+FF0B   E2 16 FF               JPO   OUT_FIZZ   
+FF0E   79                     MOV   A,C   
+FF0F   B7                     ORA   A   
+FF10   CA 16 FF               JZ    OUT_FIZZ   
+FF13   C3 21 FF               JMP   OUT_BUZZ   
+FF16                OUT_FIZZ:      
+FF16   21 7B FF               LXI   H,FIZZ   
+FF19   CD 14 00               CALL  0014H   ; PUTS
+FF1C   7A                     MOV   A,D   
+FF1D   B7                     ORA   A   
+FF1E   E2 2E FF               JPO   NEXT   
+FF21                OUT_BUZZ:      
+FF21   21 80 FF               LXI   H,BUZZ   
+FF24   CD 14 00               CALL  0014H   ; PUTS
+FF27   C3 2E FF               JMP   NEXT   
+FF2A                ODD:         
+FF2A   78                     MOV   A,B   
+FF2B   CD 45 FF               CALL  OUT_NUM   
+FF2E                NEXT:        
+FF2E   CD 18 00               CALL  0018H   ; PUTSPC
+FF31   04                     INR   B   
+FF32   0C                     INR   C   
+FF33   79                     MOV   A,C   
+FF34   FE 0F                  CPI   0FH   
+FF36   C2 3B FF               JNZ   NEXT2   
+FF39   0E 00                  MVI   C,0   
+FF3B                NEXT2:       
+FF3B   78                     MOV   A,B   
+FF3C   FE 65                  CPI   65H   
+FF3E   C2 03 FF               JNZ   LOOP   
+FF41   CD 69 04               CALL  0469H   ; PUTCRLF
+FF44   C9                     RET      
+FF45                OUT_NUM:      
+FF45   F5                     PUSH   PSW   
+FF46   C5                     PUSH   B   
+FF47   D5                     PUSH   D   
+FF48   06 00                  MVI    B,0   
+FF4A                HAND:        
+FF4A   FE 64                  CPI   64H   
+FF4C   DA 55 FF               JC    TEN   
+FF4F   D6 64                  SUI   64H   
+FF51   04                     INR   B   
+FF52   C3 4A FF               JMP   HAND   
+FF55                TEN:         
+FF55   0E 00                  MVI   C,0   
+FF57                TENS:        
+FF57   FE 0A                  CPI   0AH   
+FF59   DA 62 FF               JC    ONE   
+FF5C   D6 0A                  SUI   0AH   
+FF5E   0C                     INR   C   
+FF5F   C3 57 FF               JMP   TENS   
+FF62                ONE:         
+FF62   57                     MOV   D,A   
+FF63   78                     MOV   A,B   
+FF64   B7                     ORA   A   
+FF65   CA 6B FF               JZ    SKIP10   
+FF68   C6 30                  ADI   30H ; to ASCII
+FF6A   D7                     RST   2   ; PUTCH
+FF6B                SKIP10:      
+FF6B   79                     MOV   A,C   
+FF6C   B7                     ORA   A   
+FF6D   CA 73 FF               JZ    SKIP1   
+FF70   C6 30                  ADI   30H ; to ASCII
+FF72   D7                     RST   2   ; PUTCH
+FF73                SKIP1:       
+FF73   7A                     MOV   A,D   
+FF74   C6 30                  ADI   30H ; to ASCII
+FF76   D7                     RST   2   ; PUTCH
+FF77   D1                     POP   D   
+FF78   C1                     POP   B   
+FF79   F1                     POP   PSW   
+FF7A   C9                     RET      
+FF7B   46 69 7A 7A 00 FIZZ:   DB    "Fizz",0   
+FF80   42 75 7A 7A 00 BUZZ:   DB    "Buzz",0   
